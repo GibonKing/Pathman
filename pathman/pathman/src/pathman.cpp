@@ -1,3 +1,5 @@
+#include <vector>
+
 constexpr int32_t maze_width		= 224;
 constexpr int32_t maze_height		= 248;
 constexpr int32_t tile_map_width	= maze_width / 8;
@@ -152,4 +154,135 @@ int main(void)
 
 	// Tell windows to terminate the application process and return a successful error code
 	ExitProcess(0);
+}
+
+struct node
+{
+	node() {
+		posX = 0;
+		posY = 0;
+		h = 0;
+		g = 0;
+		f = 0;
+		parent = NULL;
+	}
+	node(int x, int y)
+		: node()
+	{
+		posX = x;
+		posY = y;
+
+	}
+
+	bool operator == (node const &obj) {
+		if (this->posX == obj.posX)
+			if (this->posY == obj.posY)
+				return true;
+
+		return false;
+	}
+
+	int posX, posY;
+	float h, g, f;
+	node* parent;
+};
+
+node getLowestF(const std::vector<node>& nodes) {
+	node returnNode = nodes[0];
+	
+	for (int i(1); i < nodes.size(); i++) {
+		if (nodes[i].f < returnNode.f)
+			returnNode = nodes[i];
+	}
+
+	return returnNode;
+}
+
+void removeNode(std::vector<node>& nodes, const node& node) {
+	for (int i(1); i < nodes.size(); i++) {
+		if (nodes[i] == node) {
+			auto iterator = std::find(nodes.begin(), nodes.end(), node);
+			nodes.erase(iterator);
+			return;
+		}
+	}
+}
+
+std::vector<node> getAdjacent(const node& Node) {
+	std::vector<node> nodes;
+	int index = (Node.posY * tile_map_width) + Node.posX;
+
+	//West Node
+	int westX = Node.posX - 1;
+	int westY = Node.posY;
+	int westIndex = (westY * tile_map_width) + westX;
+	if (tile_map[westIndex] != 0x0)
+	{
+		node newNode = node(westX, westY);
+		//set parent up here
+
+		nodes.push_back(newNode);
+	}
+}
+
+bool inList(const std::vector<node>& nodes, const node& node) {
+	for (int i(1); i < nodes.size(); i++) {
+		if (nodes[i] == node) {
+			return true;
+		}
+	}
+	return false;
+}
+
+node getNodeInList(const std::vector<node>& nodes, const node& Node) {
+	for (int i(1); i < nodes.size(); i++) {
+		if (nodes[i] == Node) {
+			return nodes[i];
+		}
+	}
+	return node();
+}
+
+float distanceBetweenNodes(const node& node1, const node& node2) {
+	return pow((node1.posX - node2.posX), 2) - pow((node1.posY - node2.posY), 2);
+}
+
+void pathFinding() {
+	std::vector<node> open, closed;
+
+	// Add the start and target node
+	open.push_back(node(pathman_tile_x, pathman_tile_y));
+	node target = node(ghost_tile_x, ghost_tile_y);
+
+	// Loop until you find the end
+	while (!open.empty()) {
+		// Get the current node
+		node currentNode = getLowestF(open);
+		removeNode(open, currentNode);
+		closed.push_back(currentNode);
+
+		// Generate children
+		std::vector<node> children = getAdjacent(currentNode);
+
+		for (int i(0); i < children.size(); i++) {
+			//Check if already checked
+			if (inList(closed, children[i]))
+				continue;
+
+			//Create values
+			children[i].g = currentNode.g + distanceBetweenNodes(currentNode, children[i]);
+			children[i].h = distanceBetweenNodes(children[i], target);
+			children[i].f = children[i].g + children[i].h;
+
+			//Check if child is already in open
+			if (inList(open, children[i])) {
+				node nodeInList = getNodeInList(open, children[i]);
+				if (children[i].g > nodeInList.g)
+					continue;
+			}
+
+			//Add Child to Open
+			open.push_back(children[i]);
+		}
+	}
 }
