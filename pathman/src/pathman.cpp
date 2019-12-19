@@ -318,6 +318,7 @@ int main(void)
 		if (frame > 30) {
 			pathman_tile_x = finalNodes[count].posX;
 			pathman_tile_y = finalNodes[count].posY;
+			count++;
 			frame = 0;
 		}
 
