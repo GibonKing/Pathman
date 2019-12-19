@@ -1,37 +1,37 @@
  pathman
 
- Timestamp is 5df8e9cb (Tue Dec 17 14:44:27 2019)
+ Timestamp is 5dfac1c4 (Thu Dec 19 00:18:12 2019)
 
  Preferred load address is 0000000140000000
 
  Start         Length     Name                   Class
- 0001:00000000 00005233H .text$mn                CODE
+ 0001:00000000 00005243H .text$mn                CODE
  0002:00000000 00000160H .idata$5                DATA
  0002:00000158 00000000H .gfids$y                DATA
- 0002:00000160 00001608H .rdata                  DATA
- 0002:00001768 000002fcH .rdata$r                DATA
- 0002:00001a64 00000194H .rdata$zzzdbg           DATA
- 0002:00001bf8 00000250H .xdata                  DATA
- 0002:00001e48 0000017cH .xdata$x                DATA
- 0002:00001fc4 00000000H .edata                  DATA
- 0002:00001fc4 000000c8H .idata$2                DATA
- 0002:0000208c 00000014H .idata$3                DATA
- 0002:000020a0 00000158H .idata$4                DATA
- 0002:000021f8 00000326H .idata$6                DATA
+ 0002:00000160 000015d8H .rdata                  DATA
+ 0002:00001738 000002fcH .rdata$r                DATA
+ 0002:00001a34 0000018cH .rdata$zzzdbg           DATA
+ 0002:00001bc0 00000248H .xdata                  DATA
+ 0002:00001e08 0000017cH .xdata$x                DATA
+ 0002:00001f84 00000000H .edata                  DATA
+ 0002:00001f84 000000c8H .idata$2                DATA
+ 0002:0000204c 00000014H .idata$3                DATA
+ 0002:00002060 00000158H .idata$4                DATA
+ 0002:000021b8 00000326H .idata$6                DATA
  0003:00000000 00000388H .data                   DATA
  0003:00000388 000000f0H .data$r                 DATA
  0003:00000478 00000010H .bss                    DATA
- 0004:00000000 000005c4H .pdata                  DATA
+ 0004:00000000 000005b8H .pdata                  DATA
 
   Address         Publics by Value              Rva+Base               Lib:Object
 
- 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
  0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
  0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
  0000:00000000       __guard_fids_count         0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
  0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
- 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
  0000:00000000       __guard_iat_table          0000000000000000     <absolute>
  0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
  0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
@@ -55,22 +55,22 @@
  0001:00001300       ?sprite_batch_begin@@YAXPEAUsprite_batch@@@Z 0000000140002300 f   unity_common.obj
  0001:000013e0       ?sprite_batch_end@@YAXPEAUsprite_batch@@@Z 00000001400023e0 f   unity_common.obj
  0001:00001400       ?sprite_batch_draw@@YAXPEAUsprite_batch@@PEAUtexture@@HHHHHHHH@Z 0000000140002400 f   unity_common.obj
- 0001:00002050       ??0?$allocator@Unode@@@std@@QEAA@XZ 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$_Unfancy@Unode@@@std@@YAPEAUnode@@PEAU1@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ?_Get_second@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ?_Get_first@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$move@AEAV?$allocator@Unode@@@std@@@std@@YA$$QEAV?$allocator@Unode@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$forward@Unode@@@std@@YA$$QEAUnode@@AEAU1@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$forward@AEBUnode@@@std@@YAAEBUnode@@AEBU1@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ?_Get_second@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$forward@V?$allocator@Unode@@@std@@@std@@YA$$QEAV?$allocator@Unode@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$move@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@YA$$QEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ?_Get_first@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$move@AEAUnode@@@std@@YA$$QEAUnode@@AEAU1@@Z 0000000140003050 f i unity_pathman.obj
  0001:00002050       ??$_Get_unwrapped@Unode@@@std@@YAPEAUnode@@QEAU1@@Z 0000000140003050 f i unity_pathman.obj
- 0001:00002050       ??$IID_PPV_ARGS_Helper@UIWICImagingFactory@@@@YAPEAPEAXPEAPEAUIWICImagingFactory@@@Z 0000000140003050 f i unity_common.obj
- 0001:00002050       ??$addressof@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@YAPEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ?_Get_second@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140003050 f i unity_pathman.obj
  0001:00002050       ??$_Const_cast@$$CBUnode@@@std@@YAPEAUnode@@PEBU1@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ?_Get_first@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$move@AEAUnode@@@std@@YA$$QEAUnode@@AEAU1@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$forward@Unode@@@std@@YA$$QEAUnode@@AEAU1@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ?_Get_second@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$_Unfancy@Unode@@@std@@YAPEAUnode@@PEAU1@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$move@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@YA$$QEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$move@AEAV?$allocator@Unode@@@std@@@std@@YA$$QEAV?$allocator@Unode@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$addressof@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@YAPEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$forward@AEBUnode@@@std@@YAAEBUnode@@AEBU1@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$IID_PPV_ARGS_Helper@UIWICImagingFactory@@@@YAPEAPEAXPEAPEAUIWICImagingFactory@@@Z 0000000140003050 f i unity_common.obj
+ 0001:00002050       ??0?$allocator@Unode@@@std@@QEAA@XZ 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ??$forward@V?$allocator@Unode@@@std@@@std@@YA$$QEAV?$allocator@Unode@@@0@AEAV10@@Z 0000000140003050 f i unity_pathman.obj
+ 0001:00002050       ?_Get_first@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 0000000140003050 f i unity_pathman.obj
  0001:00002060       ??$com_cast@UID3D11Device5@@@@YAPEAUID3D11Device5@@PEAUIUnknown@@@Z 0000000140003060 f i unity_common.obj
  0001:000020d0       ??$com_cast@UID3D11DeviceContext4@@@@YAPEAUID3D11DeviceContext4@@PEAUIUnknown@@@Z 00000001400030d0 f i unity_common.obj
  0001:00002140       ??$com_cast@UIDXGIAdapter4@@@@YAPEAUIDXGIAdapter4@@PEAUIUnknown@@@Z 0000000140003140 f i unity_common.obj
@@ -82,103 +82,102 @@
  0001:000026b0       ?removeNode@@YAXAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBUnode@@@Z 00000001400036b0 f   unity_pathman.obj
  0001:000027b0       ?makeNode@@YA?AUnode@@HH@Z 00000001400037b0 f   unity_pathman.obj
  0001:00002840       ?getAdjacent@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@Unode@@@Z 0000000140003840 f   unity_pathman.obj
- 0001:00002a10       ?inList@@YA_NAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAUnode@@@Z 0000000140003a10 f   unity_pathman.obj
- 0001:00002a90       ?getNodeInList@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAU1@@Z 0000000140003a90 f   unity_pathman.obj
- 0001:00002b50       ?getParent@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@PEAU1@@Z 0000000140003b50 f   unity_pathman.obj
- 0001:00002c20       ?distanceBetweenNodes@@YAMAEBUnode@@0@Z 0000000140003c20 f   unity_pathman.obj
- 0001:00002c90       ?pathFinding@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@XZ 0000000140003c90 f   unity_pathman.obj
- 0001:00003100       main                       0000000140004100 f   unity_pathman.obj
- 0001:00003270       ??$?0$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 0000000140004270 f i unity_pathman.obj
- 0001:000032a0       ??$?0U?$integral_constant@_N$00@std@@@_Unused_parameter@std@@QEAA@$$QEAU?$integral_constant@_N$00@1@@Z 00000001400042a0 f i unity_pathman.obj
- 0001:000032a0       ??$_Get_unwrapped_n@Unode@@_J$0A@@std@@YAPEAUnode@@QEAU1@_J@Z 00000001400042a0 f i unity_pathman.obj
- 0001:000032b0       ??$?0V?$allocator@Unode@@@std@@$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Unode@@@1@@Z 00000001400042b0 f i unity_pathman.obj
- 0001:000032f0       ??$?0V?$allocator@Unode@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Unode@@@1@@Z 00000001400042f0 f i unity_pathman.obj
- 0001:00003340       ?_Adopt@_Iterator_base0@std@@QEAAXPEBX@Z 0000000140004340 f i unity_pathman.obj
- 0001:00003340       ?_Swap_all@_Container_base0@std@@QEAAXAEAU12@@Z 0000000140004340 f i unity_pathman.obj
- 0001:00003340       ??$_Adl_verify_range@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@V12@@std@@YAXAEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 0000000140004340 f i unity_pathman.obj
- 0001:00003340       ??$destroy@Unode@@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@@Z 0000000140004340 f i unity_pathman.obj
- 0001:00003350       ??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 0000000140004350 f i unity_pathman.obj
- 0001:00003390       ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 0000000140004390 f i unity_pathman.obj
- 0001:00003420       ??$_Copy_memmove@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140004420 f i unity_pathman.obj
- 0001:00003490       ??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 0000000140004490 f i unity_pathman.obj
- 0001:000034d0       ??$_Destroy_range1@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@U?$integral_constant@_N$00@0@@Z 00000001400044d0 f i unity_pathman.obj
- 0001:000034f0       ??$_Destroy_range@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@@Z 00000001400044f0 f i unity_pathman.obj
- 0001:00003540       ??$_Emplace_back@Unode@@@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140004540 f i unity_pathman.obj
- 0001:000035b0       ??$_Emplace_back_with_unused_capacity@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@AEBU2@@Z 00000001400045b0 f i unity_pathman.obj
- 0001:000035b0       ??$_Emplace_back_with_unused_capacity@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@$$QEAU2@@Z 00000001400045b0 f i unity_pathman.obj
- 0001:00003680       ??$_Emplace_reallocate@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@AEBU2@@Z 0000000140004680 f i unity_pathman.obj
- 0001:00003680       ??$_Emplace_reallocate@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@$$QEAU2@@Z 0000000140004680 f i unity_pathman.obj
- 0001:00003910       ??$_Find_unchecked1@PEAUnode@@U1@@std@@YAPEAUnode@@PEAU1@QEAU1@AEBU1@U?$integral_constant@_N$0A@@0@@Z 0000000140004910 f i unity_pathman.obj
- 0001:00003970       ??$_Find_unchecked@PEAUnode@@U1@@std@@YAPEAUnode@@QEAU1@0AEBU1@@Z 0000000140004970 f i unity_pathman.obj
- 0001:000039c0       ??$_Get_size_of_n@$0CA@@std@@YA_K_K@Z 00000001400049c0 f i unity_pathman.obj
- 0001:00003a10       ??$_Get_unwrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@$0A@@std@@YAPEAUnode@@AEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@@Z 0000000140004a10 f i unity_pathman.obj
- 0001:00003a30       ??$_Idl_distance@PEAUnode@@PEAU1@@std@@YA_JAEBQEAUnode@@0@Z 0000000140004a30 f i unity_pathman.obj
- 0001:00003a60       ??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 0000000140004a60 f i unity_pathman.obj
- 0001:00003ab0       ??$_Move_unchecked1@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z 0000000140004ab0 f i unity_pathman.obj
- 0001:00003af0       ??$_Move_unchecked@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140004af0 f i unity_pathman.obj
- 0001:00003b60       ??$_Ptr_move_cat@Unode@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@AEBQEAUnode@@0@Z 0000000140004b60 f i unity_pathman.obj
- 0001:00003b90       ??$_Reverse_unchecked1@PEAUnode@@@std@@YAXPEAUnode@@0U?$integral_constant@_K$0A@@0@@Z 0000000140004b90 f i unity_pathman.obj
- 0001:00003bf0       ??$_Reverse_unchecked@PEAUnode@@@std@@YAXQEAUnode@@0@Z 0000000140004bf0 f i unity_pathman.obj
- 0001:00003c40       ??$_Seek_wrapped@Unode@@@std@@YAXAEAPEAUnode@@QEAU1@@Z 0000000140004c40 f i unity_pathman.obj
- 0001:00003c60       ??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@PEAUnode@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@AEBQEAUnode@@@Z 0000000140004c60 f i unity_pathman.obj
- 0001:00003c90       ??$_Uninitialized_move@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@QEAU1@0PEAU1@AEAV?$allocator@Unode@@@0@@Z 0000000140004c90 f i unity_pathman.obj
- 0001:00003de0       ??$_Uninitialized_move_al_unchecked@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@PEAU1@QEAU1@1AEAV?$allocator@Unode@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z 0000000140004de0 f i unity_pathman.obj
- 0001:00003e70       ??$construct@Unode@@AEBU1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@AEBU3@@Z 0000000140004e70 f i unity_pathman.obj
- 0001:00003e70       ??$construct@Unode@@U1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@$$QEAU3@@Z 0000000140004e70 f i unity_pathman.obj
- 0001:00003ec0       ??$emplace_back@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@AEBU2@@Z 0000000140004ec0 f i unity_pathman.obj
- 0001:00003ec0       ??$emplace_back@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@$$QEAU2@@Z 0000000140004ec0 f i unity_pathman.obj
- 0001:00003f40       ??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@Unode@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@V10@V10@AEBUnode@@@Z 0000000140004f40 f i unity_pathman.obj
- 0001:00003fd0       ??$iter_swap@PEAUnode@@PEAU1@@std@@YAXPEAUnode@@0@Z 0000000140004fd0 f i unity_pathman.obj
- 0001:00004000       ??$pow@HHX@@YANHH@Z        0000000140005000 f i unity_pathman.obj
- 0001:00004030       ??$reverse@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 0000000140005030 f i unity_pathman.obj
- 0001:00004080       ??$swap@Unode@@X@std@@YAXAEAUnode@@0@Z 0000000140005080 f i unity_pathman.obj
- 0001:000040f0       ??0?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@PEAUnode@@AEAV?$allocator@Unode@@@1@@Z 00000001400050f0 f i unity_pathman.obj
- 0001:00004130       ??0?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@XZ 0000000140005130 f i unity_pathman.obj
- 0001:00004160       ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140005160 f i unity_pathman.obj
- 0001:000041a0       ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 00000001400051a0 f i unity_pathman.obj
- 0001:000041e0       ??0?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@QEAA@XZ 00000001400051e0 f i unity_pathman.obj
- 0001:00004220       ??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@$$QEAV01@@Z 0000000140005220 f i unity_pathman.obj
- 0001:000042a0       ??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 00000001400052a0 f i unity_pathman.obj
- 0001:000042c0       ??0node@@QEAA@HH@Z         00000001400052c0 f i unity_pathman.obj
- 0001:00004300       ??0node@@QEAA@XZ           0000000140005300 f i unity_pathman.obj
- 0001:00004360       ??1?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140005360 f i unity_pathman.obj
- 0001:00004390       ??1?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140005390 f i unity_pathman.obj
- 0001:000043b0       ??2@YAPEAX_KPEAX@Z         00000001400053b0 f i unity_pathman.obj
- 0001:000043c0       ??8node@@QEAA_NAEBU0@@Z    00000001400053c0 f i unity_pathman.obj
- 0001:00004400       ??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBAAEBUnode@@_K@Z 0000000140005400 f i unity_pathman.obj
- 0001:00004400       ??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@_K@Z 0000000140005400 f i unity_pathman.obj
- 0001:00004430       ?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 0000000140005430 f i unity_pathman.obj
- 0001:000044d0       ?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 00000001400054d0 f i unity_pathman.obj
- 0001:000044f0       ?_Calculate_growth@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_K_K@Z 00000001400054f0 f i unity_pathman.obj
- 0001:00004580       ?_Change_array@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXQEAUnode@@_K1@Z 0000000140005580 f i unity_pathman.obj
- 0001:000046a0       ?_Destroy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@0@Z 00000001400056a0 f i unity_pathman.obj
- 0001:000046e0       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 00000001400056e0 f i unity_pathman.obj
- 0001:000046e0       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 00000001400056e0 f i unity_pathman.obj
- 0001:000046e0       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 00000001400056e0 f i unity_pathman.obj
- 0001:000046e0       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 00000001400056e0 f i unity_pathman.obj
- 0001:00004700       ?_Has_unused_capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_NXZ 0000000140005700 f i unity_pathman.obj
- 0001:00004750       ?_Move_from@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAX$$QEAV12@U?$integral_constant@_N$00@2@@Z 0000000140005750 f i unity_pathman.obj
- 0001:00004820       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140005820 f i unity_pathman.obj
- 0001:00004820       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140005820 f i unity_pathman.obj
- 0001:00004840       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140005840 f i unity_pathman.obj
- 0001:00004840       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140005840 f i unity_pathman.obj
- 0001:00004860       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140005860 f i unity_pathman.obj
- 0001:00004860       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140005860 f i unity_pathman.obj
- 0001:00004880       ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXXZ 0000000140005880 f i unity_pathman.obj
- 0001:000048a0       ?_Orphan_all@_Container_base0@std@@QEAAXXZ 00000001400058a0 f i unity_pathman.obj
- 0001:000048b0       ?_Orphan_range@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBAXPEAUnode@@0@Z 00000001400058b0 f i unity_pathman.obj
- 0001:000048c0       ?_Release@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@XZ 00000001400058c0 f i unity_pathman.obj
- 0001:000048e0       ?_Seek_to@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAAXPEBUnode@@@Z 00000001400058e0 f i unity_pathman.obj
- 0001:00004910       ?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXAEAV12@@Z 0000000140005910 f i unity_pathman.obj
- 0001:00004950       ?_Tidy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXXZ 0000000140005950 f i unity_pathman.obj
- 0001:00004a30       ?_Umove@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAPEAUnode@@PEAU3@00@Z 0000000140005a30 f i unity_pathman.obj
- 0001:00004a30       ?_Umove_if_noexcept1@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00U?$integral_constant@_N$00@2@@Z 0000000140005a30 f i unity_pathman.obj
- 0001:00004a70       ?_Umove_if_noexcept@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00@Z 0000000140005a70 f i unity_pathman.obj
- 0001:00004ad0       ?_Unwrapped@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEBAPEAUnode@@XZ 0000000140005ad0 f i unity_pathman.obj
- 0001:00004ae0       ?_Xlength@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@CAXXZ 0000000140005ae0 f i unity_pathman.obj
- 0001:00004b00       ?allocate@?$allocator@Unode@@@std@@QEAAPEAUnode@@_K@Z 0000000140005b00 f i unity_pathman.obj
- 0001:00004b30       ?begin@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140005b30 f i unity_pathman.obj
- 0001:00004b90       ?capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140005b90 f i unity_pathman.obj
+ 0001:00002a40       ?inList@@YA_NAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAUnode@@@Z 0000000140003a40 f   unity_pathman.obj
+ 0001:00002ac0       ?getNodeInList@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAU1@@Z 0000000140003ac0 f   unity_pathman.obj
+ 0001:00002b80       ?distanceBetweenNodes@@YAMAEBUnode@@0@Z 0000000140003b80 f   unity_pathman.obj
+ 0001:00002bf0       ?pathFinding@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@XZ 0000000140003bf0 f   unity_pathman.obj
+ 0001:00003070       main                       0000000140004070 f   unity_pathman.obj
+ 0001:00003250       ??$?0$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 0000000140004250 f i unity_pathman.obj
+ 0001:00003280       ??$_Get_unwrapped_n@Unode@@_J$0A@@std@@YAPEAUnode@@QEAU1@_J@Z 0000000140004280 f i unity_pathman.obj
+ 0001:00003280       ??$?0U?$integral_constant@_N$00@std@@@_Unused_parameter@std@@QEAA@$$QEAU?$integral_constant@_N$00@1@@Z 0000000140004280 f i unity_pathman.obj
+ 0001:00003290       ??$?0V?$allocator@Unode@@@std@@$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Unode@@@1@@Z 0000000140004290 f i unity_pathman.obj
+ 0001:000032d0       ??$?0V?$allocator@Unode@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Unode@@@1@@Z 00000001400042d0 f i unity_pathman.obj
+ 0001:00003320       ??$destroy@Unode@@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@@Z 0000000140004320 f i unity_pathman.obj
+ 0001:00003320       ??$_Adl_verify_range@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@V12@@std@@YAXAEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 0000000140004320 f i unity_pathman.obj
+ 0001:00003320       ?_Swap_all@_Container_base0@std@@QEAAXAEAU12@@Z 0000000140004320 f i unity_pathman.obj
+ 0001:00003320       ?_Adopt@_Iterator_base0@std@@QEAAXPEBX@Z 0000000140004320 f i unity_pathman.obj
+ 0001:00003330       ??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 0000000140004330 f i unity_pathman.obj
+ 0001:00003370       ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 0000000140004370 f i unity_pathman.obj
+ 0001:00003400       ??$_Copy_memmove@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140004400 f i unity_pathman.obj
+ 0001:00003470       ??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 0000000140004470 f i unity_pathman.obj
+ 0001:000034b0       ??$_Destroy_range1@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@U?$integral_constant@_N$00@0@@Z 00000001400044b0 f i unity_pathman.obj
+ 0001:000034d0       ??$_Destroy_range@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@@Z 00000001400044d0 f i unity_pathman.obj
+ 0001:00003520       ??$_Emplace_back@Unode@@@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140004520 f i unity_pathman.obj
+ 0001:00003590       ??$_Emplace_back_with_unused_capacity@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@$$QEAU2@@Z 0000000140004590 f i unity_pathman.obj
+ 0001:00003590       ??$_Emplace_back_with_unused_capacity@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@AEBU2@@Z 0000000140004590 f i unity_pathman.obj
+ 0001:00003660       ??$_Emplace_reallocate@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@AEBU2@@Z 0000000140004660 f i unity_pathman.obj
+ 0001:00003660       ??$_Emplace_reallocate@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@$$QEAU2@@Z 0000000140004660 f i unity_pathman.obj
+ 0001:000038f0       ??$_Find_unchecked1@PEAUnode@@U1@@std@@YAPEAUnode@@PEAU1@QEAU1@AEBU1@U?$integral_constant@_N$0A@@0@@Z 00000001400048f0 f i unity_pathman.obj
+ 0001:00003950       ??$_Find_unchecked@PEAUnode@@U1@@std@@YAPEAUnode@@QEAU1@0AEBU1@@Z 0000000140004950 f i unity_pathman.obj
+ 0001:000039a0       ??$_Get_size_of_n@$0BM@@std@@YA_K_K@Z 00000001400049a0 f i unity_pathman.obj
+ 0001:000039f0       ??$_Get_unwrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@$0A@@std@@YAPEAUnode@@AEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@@Z 00000001400049f0 f i unity_pathman.obj
+ 0001:00003a10       ??$_Idl_distance@PEAUnode@@PEAU1@@std@@YA_JAEBQEAUnode@@0@Z 0000000140004a10 f i unity_pathman.obj
+ 0001:00003a40       ??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 0000000140004a40 f i unity_pathman.obj
+ 0001:00003a90       ??$_Move_unchecked1@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z 0000000140004a90 f i unity_pathman.obj
+ 0001:00003ad0       ??$_Move_unchecked@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140004ad0 f i unity_pathman.obj
+ 0001:00003b40       ??$_Ptr_move_cat@Unode@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@AEBQEAUnode@@0@Z 0000000140004b40 f i unity_pathman.obj
+ 0001:00003b70       ??$_Reverse_unchecked1@PEAUnode@@@std@@YAXPEAUnode@@0U?$integral_constant@_K$0A@@0@@Z 0000000140004b70 f i unity_pathman.obj
+ 0001:00003bd0       ??$_Reverse_unchecked@PEAUnode@@@std@@YAXQEAUnode@@0@Z 0000000140004bd0 f i unity_pathman.obj
+ 0001:00003c20       ??$_Seek_wrapped@Unode@@@std@@YAXAEAPEAUnode@@QEAU1@@Z 0000000140004c20 f i unity_pathman.obj
+ 0001:00003c40       ??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@PEAUnode@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@AEBQEAUnode@@@Z 0000000140004c40 f i unity_pathman.obj
+ 0001:00003c70       ??$_Uninitialized_move@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@QEAU1@0PEAU1@AEAV?$allocator@Unode@@@0@@Z 0000000140004c70 f i unity_pathman.obj
+ 0001:00003dc0       ??$_Uninitialized_move_al_unchecked@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@PEAU1@QEAU1@1AEAV?$allocator@Unode@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z 0000000140004dc0 f i unity_pathman.obj
+ 0001:00003e50       ??$construct@Unode@@AEBU1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@AEBU3@@Z 0000000140004e50 f i unity_pathman.obj
+ 0001:00003e50       ??$construct@Unode@@U1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@$$QEAU3@@Z 0000000140004e50 f i unity_pathman.obj
+ 0001:00003ea0       ??$emplace_back@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@AEBU2@@Z 0000000140004ea0 f i unity_pathman.obj
+ 0001:00003ea0       ??$emplace_back@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@$$QEAU2@@Z 0000000140004ea0 f i unity_pathman.obj
+ 0001:00003f20       ??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@Unode@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@V10@V10@AEBUnode@@@Z 0000000140004f20 f i unity_pathman.obj
+ 0001:00003fb0       ??$iter_swap@PEAUnode@@PEAU1@@std@@YAXPEAUnode@@0@Z 0000000140004fb0 f i unity_pathman.obj
+ 0001:00003fe0       ??$pow@HHX@@YANHH@Z        0000000140004fe0 f i unity_pathman.obj
+ 0001:00004010       ??$reverse@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 0000000140005010 f i unity_pathman.obj
+ 0001:00004060       ??$swap@Unode@@X@std@@YAXAEAUnode@@0@Z 0000000140005060 f i unity_pathman.obj
+ 0001:000040d0       ??0?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@PEAUnode@@AEAV?$allocator@Unode@@@1@@Z 00000001400050d0 f i unity_pathman.obj
+ 0001:00004110       ??0?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@XZ 0000000140005110 f i unity_pathman.obj
+ 0001:00004140       ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140005140 f i unity_pathman.obj
+ 0001:00004180       ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140005180 f i unity_pathman.obj
+ 0001:000041c0       ??0?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@QEAA@XZ 00000001400051c0 f i unity_pathman.obj
+ 0001:00004200       ??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@$$QEAV01@@Z 0000000140005200 f i unity_pathman.obj
+ 0001:00004280       ??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140005280 f i unity_pathman.obj
+ 0001:000042a0       ??0node@@QEAA@HH@Z         00000001400052a0 f i unity_pathman.obj
+ 0001:000042e0       ??0node@@QEAA@XZ           00000001400052e0 f i unity_pathman.obj
+ 0001:00004350       ??1?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140005350 f i unity_pathman.obj
+ 0001:00004380       ??1?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140005380 f i unity_pathman.obj
+ 0001:000043a0       ??2@YAPEAX_KPEAX@Z         00000001400053a0 f i unity_pathman.obj
+ 0001:000043b0       ??8node@@QEAA_NAEBU0@@Z    00000001400053b0 f i unity_pathman.obj
+ 0001:000043f0       ??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBAAEBUnode@@_K@Z 00000001400053f0 f i unity_pathman.obj
+ 0001:000043f0       ??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@_K@Z 00000001400053f0 f i unity_pathman.obj
+ 0001:00004420       ?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 0000000140005420 f i unity_pathman.obj
+ 0001:000044c0       ?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 00000001400054c0 f i unity_pathman.obj
+ 0001:000044e0       ?_Calculate_growth@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_K_K@Z 00000001400054e0 f i unity_pathman.obj
+ 0001:00004570       ?_Change_array@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXQEAUnode@@_K1@Z 0000000140005570 f i unity_pathman.obj
+ 0001:00004690       ?_Destroy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@0@Z 0000000140005690 f i unity_pathman.obj
+ 0001:000046d0       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 00000001400056d0 f i unity_pathman.obj
+ 0001:000046d0       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 00000001400056d0 f i unity_pathman.obj
+ 0001:000046d0       ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 00000001400056d0 f i unity_pathman.obj
+ 0001:000046d0       ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 00000001400056d0 f i unity_pathman.obj
+ 0001:000046f0       ?_Has_unused_capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_NXZ 00000001400056f0 f i unity_pathman.obj
+ 0001:00004740       ?_Move_from@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAX$$QEAV12@U?$integral_constant@_N$00@2@@Z 0000000140005740 f i unity_pathman.obj
+ 0001:00004810       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140005810 f i unity_pathman.obj
+ 0001:00004810       ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140005810 f i unity_pathman.obj
+ 0001:00004830       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140005830 f i unity_pathman.obj
+ 0001:00004830       ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140005830 f i unity_pathman.obj
+ 0001:00004850       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140005850 f i unity_pathman.obj
+ 0001:00004850       ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140005850 f i unity_pathman.obj
+ 0001:00004870       ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXXZ 0000000140005870 f i unity_pathman.obj
+ 0001:00004890       ?_Orphan_all@_Container_base0@std@@QEAAXXZ 0000000140005890 f i unity_pathman.obj
+ 0001:000048a0       ?_Orphan_range@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBAXPEAUnode@@0@Z 00000001400058a0 f i unity_pathman.obj
+ 0001:000048b0       ?_Release@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@XZ 00000001400058b0 f i unity_pathman.obj
+ 0001:000048d0       ?_Seek_to@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAAXPEBUnode@@@Z 00000001400058d0 f i unity_pathman.obj
+ 0001:00004900       ?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXAEAV12@@Z 0000000140005900 f i unity_pathman.obj
+ 0001:00004940       ?_Tidy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXXZ 0000000140005940 f i unity_pathman.obj
+ 0001:00004a20       ?_Umove_if_noexcept1@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00U?$integral_constant@_N$00@2@@Z 0000000140005a20 f i unity_pathman.obj
+ 0001:00004a20       ?_Umove@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAPEAUnode@@PEAU3@00@Z 0000000140005a20 f i unity_pathman.obj
+ 0001:00004a60       ?_Umove_if_noexcept@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00@Z 0000000140005a60 f i unity_pathman.obj
+ 0001:00004ac0       ?_Unwrapped@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEBAPEAUnode@@XZ 0000000140005ac0 f i unity_pathman.obj
+ 0001:00004ad0       ?_Xlength@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@CAXXZ 0000000140005ad0 f i unity_pathman.obj
+ 0001:00004af0       ?allocate@?$allocator@Unode@@@std@@QEAAPEAUnode@@_K@Z 0000000140005af0 f i unity_pathman.obj
+ 0001:00004b20       ?begin@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140005b20 f i unity_pathman.obj
+ 0001:00004b80       ?capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140005b80 f i unity_pathman.obj
  0001:00004bd0       ?deallocate@?$allocator@Unode@@@std@@QEAAXQEAUnode@@_K@Z 0000000140005bd0 f i unity_pathman.obj
  0001:00004c00       ?empty@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_NXZ 0000000140005c00 f i unity_pathman.obj
  0001:00004c50       ?end@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140005c50 f i unity_pathman.obj
@@ -189,50 +188,50 @@
  0001:00004de0       ?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140005de0 f i unity_pathman.obj
  0001:00004e10       ?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAXAEBUnode@@@Z 0000000140005e10 f i unity_pathman.obj
  0001:00004e40       ?size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140005e40 f i unity_pathman.obj
- 0001:00004e7c       __stdio_common_vsprintf    0000000140005e7c f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0001:00004e82       free                       0000000140005e82 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0001:00004e88       malloc                     0000000140005e88 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0001:00004e8e       _invalid_parameter_noinfo_noreturn 0000000140005e8e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00004e94       pow                        0000000140005e94 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0001:00004e9a       memmove                    0000000140005e9a f   vcruntime:VCRUNTIME140.dll
- 0001:00004eb0       _alloca_probe              0000000140005eb0 f   msvcrt:chkstk.obj
- 0001:00004eb0       __chkstk                   0000000140005eb0 f   msvcrt:chkstk.obj
- 0001:00004f04       ??2@YAPEAX_K@Z             0000000140005f04 f   msvcrt:new_scalar.obj
- 0001:00004f40       ??3@YAXPEAX_K@Z            0000000140005f40 f   msvcrt:delete_scalar_size.obj
- 0001:00004f48       ??0bad_alloc@std@@QEAA@AEBV01@@Z 0000000140005f48 f i msvcrt:throw_bad_alloc.obj
- 0001:00004f88       ??0bad_alloc@std@@QEAA@XZ  0000000140005f88 f i msvcrt:throw_bad_alloc.obj
- 0001:00004fa8       ??0bad_array_new_length@std@@QEAA@AEBV01@@Z 0000000140005fa8 f i msvcrt:throw_bad_alloc.obj
- 0001:00004fe8       ??0bad_array_new_length@std@@QEAA@XZ 0000000140005fe8 f i msvcrt:throw_bad_alloc.obj
- 0001:00005008       ??0exception@std@@QEAA@AEBV01@@Z 0000000140006008 f i msvcrt:throw_bad_alloc.obj
- 0001:00005040       ??1bad_alloc@std@@UEAA@XZ  0000000140006040 f i msvcrt:throw_bad_alloc.obj
- 0001:00005040       ??1bad_array_new_length@std@@UEAA@XZ 0000000140006040 f i msvcrt:throw_bad_alloc.obj
- 0001:00005040       ??1length_error@std@@UEAA@XZ 0000000140006040 f i libcpmt:xthrow.obj
- 0001:00005054       ??_Elength_error@std@@UEAAPEAXI@Z 0000000140006054 f i libcpmt:xthrow.obj
- 0001:00005054       ??_Glength_error@std@@UEAAPEAXI@Z 0000000140006054 f i libcpmt:xthrow.obj
- 0001:00005054       ??_Elogic_error@std@@UEAAPEAXI@Z 0000000140006054 f i libcpmt:xthrow.obj
- 0001:00005054       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 0000000140006054 f i msvcrt:throw_bad_alloc.obj
- 0001:00005054       ??_Gexception@std@@UEAAPEAXI@Z 0000000140006054 f i msvcrt:throw_bad_alloc.obj
- 0001:00005054       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 0000000140006054 f i msvcrt:throw_bad_alloc.obj
- 0001:00005054       ??_Eexception@std@@UEAAPEAXI@Z 0000000140006054 f i msvcrt:throw_bad_alloc.obj
- 0001:00005054       ??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000140006054 f i msvcrt:throw_bad_alloc.obj
- 0001:00005054       ??_Glogic_error@std@@UEAAPEAXI@Z 0000000140006054 f i libcpmt:xthrow.obj
- 0001:00005054       ??_Ebad_alloc@std@@UEAAPEAXI@Z 0000000140006054 f i msvcrt:throw_bad_alloc.obj
- 0001:00005098       ?__scrt_throw_std_bad_alloc@@YAXXZ 0000000140006098 f   msvcrt:throw_bad_alloc.obj
- 0001:000050b8       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 00000001400060b8 f   msvcrt:throw_bad_alloc.obj
- 0001:000050d8       ?what@exception@std@@UEBAPEBDXZ 00000001400060d8 f i msvcrt:throw_bad_alloc.obj
- 0001:000050ec       ??3@YAXPEAX@Z              00000001400060ec f   msvcrt:delete_scalar.obj
- 0001:000050f4       ??_Etype_info@@UEAAPEAXI@Z 00000001400060f4 f i msvcrt:std_type_info_static.obj
- 0001:000050f4       ??_Gtype_info@@UEAAPEAXI@Z 00000001400060f4 f i msvcrt:std_type_info_static.obj
- 0001:0000511f       D3D11CreateDevice          000000014000611f f   d3d11:d3d11.dll
- 0001:00005125       D3DCompile2                0000000140006125 f   d3dcompiler:D3DCOMPILER_47.dll
- 0001:0000512c       ??0length_error@std@@QEAA@AEBV01@@Z 000000014000612c f i libcpmt:xthrow.obj
- 0001:0000516c       ??0length_error@std@@QEAA@PEBD@Z 000000014000616c f i libcpmt:xthrow.obj
- 0001:000051b8       ??0logic_error@std@@QEAA@AEBV01@@Z 00000001400061b8 f i libcpmt:xthrow.obj
- 0001:000051f8       ?_Xlength_error@std@@YAXPEBD@Z 00000001400061f8 f   libcpmt:xthrow.obj
- 0001:0000521b       _callnewh                  000000014000621b f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0001:00005221       __std_exception_copy       0000000140006221 f   vcruntime:VCRUNTIME140.dll
- 0001:00005227       __std_exception_destroy    0000000140006227 f   vcruntime:VCRUNTIME140.dll
- 0001:0000522d       _CxxThrowException         000000014000622d f   vcruntime:VCRUNTIME140.dll
+ 0001:00004e82       __stdio_common_vsprintf    0000000140005e82 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00004e88       free                       0000000140005e88 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00004e8e       malloc                     0000000140005e8e f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00004e94       _invalid_parameter_noinfo_noreturn 0000000140005e94 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00004e9a       pow                        0000000140005e9a f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:00004ea0       memmove                    0000000140005ea0 f   vcruntime:VCRUNTIME140.dll
+ 0001:00004ec0       __chkstk                   0000000140005ec0 f   msvcrt:chkstk.obj
+ 0001:00004ec0       _alloca_probe              0000000140005ec0 f   msvcrt:chkstk.obj
+ 0001:00004f14       ??2@YAPEAX_K@Z             0000000140005f14 f   msvcrt:new_scalar.obj
+ 0001:00004f50       ??3@YAXPEAX_K@Z            0000000140005f50 f   msvcrt:delete_scalar_size.obj
+ 0001:00004f58       ??0bad_alloc@std@@QEAA@AEBV01@@Z 0000000140005f58 f i msvcrt:throw_bad_alloc.obj
+ 0001:00004f98       ??0bad_alloc@std@@QEAA@XZ  0000000140005f98 f i msvcrt:throw_bad_alloc.obj
+ 0001:00004fb8       ??0bad_array_new_length@std@@QEAA@AEBV01@@Z 0000000140005fb8 f i msvcrt:throw_bad_alloc.obj
+ 0001:00004ff8       ??0bad_array_new_length@std@@QEAA@XZ 0000000140005ff8 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005018       ??0exception@std@@QEAA@AEBV01@@Z 0000000140006018 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005050       ??1bad_alloc@std@@UEAA@XZ  0000000140006050 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005050       ??1bad_array_new_length@std@@UEAA@XZ 0000000140006050 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005050       ??1length_error@std@@UEAA@XZ 0000000140006050 f i libcpmt:xthrow.obj
+ 0001:00005064       ??_Elogic_error@std@@UEAAPEAXI@Z 0000000140006064 f i libcpmt:xthrow.obj
+ 0001:00005064       ??_Eexception@std@@UEAAPEAXI@Z 0000000140006064 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005064       ??_Gexception@std@@UEAAPEAXI@Z 0000000140006064 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005064       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 0000000140006064 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005064       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 0000000140006064 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005064       ??_Glength_error@std@@UEAAPEAXI@Z 0000000140006064 f i libcpmt:xthrow.obj
+ 0001:00005064       ??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000140006064 f i msvcrt:throw_bad_alloc.obj
+ 0001:00005064       ??_Elength_error@std@@UEAAPEAXI@Z 0000000140006064 f i libcpmt:xthrow.obj
+ 0001:00005064       ??_Glogic_error@std@@UEAAPEAXI@Z 0000000140006064 f i libcpmt:xthrow.obj
+ 0001:00005064       ??_Ebad_alloc@std@@UEAAPEAXI@Z 0000000140006064 f i msvcrt:throw_bad_alloc.obj
+ 0001:000050a8       ?__scrt_throw_std_bad_alloc@@YAXXZ 00000001400060a8 f   msvcrt:throw_bad_alloc.obj
+ 0001:000050c8       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 00000001400060c8 f   msvcrt:throw_bad_alloc.obj
+ 0001:000050e8       ?what@exception@std@@UEBAPEBDXZ 00000001400060e8 f i msvcrt:throw_bad_alloc.obj
+ 0001:000050fc       ??3@YAXPEAX@Z              00000001400060fc f   msvcrt:delete_scalar.obj
+ 0001:00005104       ??_Gtype_info@@UEAAPEAXI@Z 0000000140006104 f i msvcrt:std_type_info_static.obj
+ 0001:00005104       ??_Etype_info@@UEAAPEAXI@Z 0000000140006104 f i msvcrt:std_type_info_static.obj
+ 0001:0000512f       D3D11CreateDevice          000000014000612f f   d3d11:d3d11.dll
+ 0001:00005135       D3DCompile2                0000000140006135 f   d3dcompiler:D3DCOMPILER_47.dll
+ 0001:0000513c       ??0length_error@std@@QEAA@AEBV01@@Z 000000014000613c f i libcpmt:xthrow.obj
+ 0001:0000517c       ??0length_error@std@@QEAA@PEBD@Z 000000014000617c f i libcpmt:xthrow.obj
+ 0001:000051c8       ??0logic_error@std@@QEAA@AEBV01@@Z 00000001400061c8 f i libcpmt:xthrow.obj
+ 0001:00005208       ?_Xlength_error@std@@YAXPEBD@Z 0000000140006208 f   libcpmt:xthrow.obj
+ 0001:0000522b       _callnewh                  000000014000622b f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00005231       __std_exception_copy       0000000140006231 f   vcruntime:VCRUNTIME140.dll
+ 0001:00005237       __std_exception_destroy    0000000140006237 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000523d       _CxxThrowException         000000014000623d f   vcruntime:VCRUNTIME140.dll
  0002:00000000       __imp_D3DCompile2          0000000140007000     d3dcompiler:D3DCOMPILER_47.dll
  0002:00000008       \177D3DCOMPILER_47_NULL_THUNK_DATA 0000000140007008     d3dcompiler:D3DCOMPILER_47.dll
  0002:00000010       __imp_CloseHandle          0000000140007010     kernel32:KERNEL32.dll
@@ -276,75 +275,75 @@
  0002:00000140       \177d3d11_NULL_THUNK_DATA  0000000140007140     d3d11:d3d11.dll
  0002:00000148       __imp_CoCreateInstance     0000000140007148     ole32:ole32.dll
  0002:00000150       \177ole32_NULL_THUNK_DATA  0000000140007150     ole32:ole32.dll
- 0002:00001550       _GUID_7632e1f5_ee65_4dca_87fd_84cd75f8838d 0000000140008550     unity_common.obj
- 0002:00001560       _GUID_6f15aaf2_d208_4e89_9ab4_489535d34f9c 0000000140008560     unity_common.obj
- 0002:00001570       _GUID_ec5ec8a9_c395_4314_9c77_54d7a935ff70 0000000140008570     unity_common.obj
- 0002:00001580       _GUID_95b4f95f_d8da_4ca4_9ee6_3b76d5968a10 0000000140008580     unity_common.obj
- 0002:00001590       _GUID_3c8d99d1_4fbf_4181_a82c_af66bf7bd24e 0000000140008590     unity_common.obj
- 0002:000015a0       _GUID_94d99bdb_f1f8_4ab0_b236_7da0170edab1 00000001400085a0     unity_common.obj
- 0002:000015b0       _GUID_8ffde202_a0e7_45df_9e01_e837801b5ea0 00000001400085b0     unity_common.obj
- 0002:000015c0       _GUID_917600da_f58c_4c33_98d8_3e15b390fa24 00000001400085c0     unity_common.obj
- 0002:000015d0       __real@3f800000            00000001400085d0     unity_common.obj
- 0002:000015d4       __real@40000000            00000001400085d4     unity_common.obj
- 0002:000015d8       __real@bf800000            00000001400085d8     unity_common.obj
- 0002:00001608       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@ 0000000140008608     unity_pathman.obj
- 0002:00001628       ??_7exception@std@@6B@     0000000140008628     msvcrt:throw_bad_alloc.obj
- 0002:00001638       ??_C@_0BC@EOODALEL@Unknown?5exception@ 0000000140008638     msvcrt:throw_bad_alloc.obj
- 0002:00001658       ??_7bad_alloc@std@@6B@     0000000140008658     msvcrt:throw_bad_alloc.obj
- 0002:00001668       ??_C@_0P@GHFPNOJB@bad?5allocation@ 0000000140008668     msvcrt:throw_bad_alloc.obj
- 0002:00001680       ??_7bad_array_new_length@std@@6B@ 0000000140008680     msvcrt:throw_bad_alloc.obj
- 0002:00001690       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 0000000140008690     msvcrt:throw_bad_alloc.obj
- 0002:000016b0       ??_7type_info@@6B@         00000001400086b0     msvcrt:std_type_info_static.obj
- 0002:000016b8       CLSID_WICImagingFactory2   00000001400086b8     dxguid:d3d10guid.obj
- 0002:000016c8       GUID_VendorMicrosoftBuiltIn 00000001400086c8     dxguid:d3d10guid.obj
- 0002:000016e0       ??_7logic_error@std@@6B@   00000001400086e0     libcpmt:xthrow.obj
- 0002:000016f8       ??_7length_error@std@@6B@  00000001400086f8     libcpmt:xthrow.obj
- 0002:00001768       ??_R4exception@std@@6B@    0000000140008768     msvcrt:throw_bad_alloc.obj
- 0002:00001790       ??_R3exception@std@@8      0000000140008790     msvcrt:throw_bad_alloc.obj
- 0002:000017a8       ??_R2exception@std@@8      00000001400087a8     msvcrt:throw_bad_alloc.obj
- 0002:000017b8       ??_R1A@?0A@EA@exception@std@@8 00000001400087b8     msvcrt:throw_bad_alloc.obj
- 0002:000017e0       ??_R4bad_alloc@std@@6B@    00000001400087e0     msvcrt:throw_bad_alloc.obj
- 0002:00001808       ??_R3bad_alloc@std@@8      0000000140008808     msvcrt:throw_bad_alloc.obj
- 0002:00001820       ??_R2bad_alloc@std@@8      0000000140008820     msvcrt:throw_bad_alloc.obj
- 0002:00001838       ??_R1A@?0A@EA@bad_alloc@std@@8 0000000140008838     msvcrt:throw_bad_alloc.obj
- 0002:00001860       ??_R4bad_array_new_length@std@@6B@ 0000000140008860     msvcrt:throw_bad_alloc.obj
- 0002:00001888       ??_R3bad_array_new_length@std@@8 0000000140008888     msvcrt:throw_bad_alloc.obj
- 0002:000018a0       ??_R2bad_array_new_length@std@@8 00000001400088a0     msvcrt:throw_bad_alloc.obj
- 0002:000018c0       ??_R1A@?0A@EA@bad_array_new_length@std@@8 00000001400088c0     msvcrt:throw_bad_alloc.obj
- 0002:000018e8       ??_R4type_info@@6B@        00000001400088e8     msvcrt:std_type_info_static.obj
- 0002:00001910       ??_R3type_info@@8          0000000140008910     msvcrt:std_type_info_static.obj
- 0002:00001928       ??_R2type_info@@8          0000000140008928     msvcrt:std_type_info_static.obj
- 0002:00001938       ??_R1A@?0A@EA@type_info@@8 0000000140008938     msvcrt:std_type_info_static.obj
- 0002:00001960       ??_R4logic_error@std@@6B@  0000000140008960     libcpmt:xthrow.obj
- 0002:00001988       ??_R3logic_error@std@@8    0000000140008988     libcpmt:xthrow.obj
- 0002:000019a0       ??_R2logic_error@std@@8    00000001400089a0     libcpmt:xthrow.obj
- 0002:000019b8       ??_R1A@?0A@EA@logic_error@std@@8 00000001400089b8     libcpmt:xthrow.obj
- 0002:000019e0       ??_R4length_error@std@@6B@ 00000001400089e0     libcpmt:xthrow.obj
- 0002:00001a08       ??_R3length_error@std@@8   0000000140008a08     libcpmt:xthrow.obj
- 0002:00001a20       ??_R2length_error@std@@8   0000000140008a20     libcpmt:xthrow.obj
- 0002:00001a40       ??_R1A@?0A@EA@length_error@std@@8 0000000140008a40     libcpmt:xthrow.obj
- 0002:00001e48       _TI2?AVbad_alloc@std@@     0000000140008e48     msvcrt:throw_bad_alloc.obj
- 0002:00001e68       _CTA2?AVbad_alloc@std@@    0000000140008e68     msvcrt:throw_bad_alloc.obj
- 0002:00001e80       _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QEAA@AEBV01@@Z24 0000000140008e80     msvcrt:throw_bad_alloc.obj
- 0002:00001ea8       _CT??_R0?AVexception@std@@@8??0exception@std@@QEAA@AEBV01@@Z24 0000000140008ea8     msvcrt:throw_bad_alloc.obj
- 0002:00001ed0       _TI3?AVbad_array_new_length@std@@ 0000000140008ed0     msvcrt:throw_bad_alloc.obj
- 0002:00001ef0       _CTA3?AVbad_array_new_length@std@@ 0000000140008ef0     msvcrt:throw_bad_alloc.obj
- 0002:00001f10       _CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QEAA@AEBV01@@Z24 0000000140008f10     msvcrt:throw_bad_alloc.obj
- 0002:00001f38       _CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QEAA@AEBV01@@Z24 0000000140008f38     libcpmt:xthrow.obj
- 0002:00001f60       _TI3?AVlength_error@std@@  0000000140008f60     libcpmt:xthrow.obj
- 0002:00001f80       _CTA3?AVlength_error@std@@ 0000000140008f80     libcpmt:xthrow.obj
- 0002:00001fa0       _CT??_R0?AVlength_error@std@@@8??0length_error@std@@QEAA@AEBV01@@Z24 0000000140008fa0     libcpmt:xthrow.obj
- 0002:00001fc4       __IMPORT_DESCRIPTOR_KERNEL32 0000000140008fc4     kernel32:KERNEL32.dll
- 0002:00001fd8       __IMPORT_DESCRIPTOR_USER32 0000000140008fd8     user32:USER32.dll
- 0002:00001fec       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0000000140008fec     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0002:00002000       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 0000000140009000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0002:00002014       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 0000000140009014     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0002:00002028       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 0000000140009028     ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0002:0000203c       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000014000903c     vcruntime:VCRUNTIME140.dll
- 0002:00002050       __IMPORT_DESCRIPTOR_d3d11  0000000140009050     d3d11:d3d11.dll
- 0002:00002064       __IMPORT_DESCRIPTOR_D3DCOMPILER_47 0000000140009064     d3dcompiler:D3DCOMPILER_47.dll
- 0002:00002078       __IMPORT_DESCRIPTOR_ole32  0000000140009078     ole32:ole32.dll
- 0002:0000208c       __NULL_IMPORT_DESCRIPTOR   000000014000908c     kernel32:KERNEL32.dll
+ 0002:00001520       _GUID_7632e1f5_ee65_4dca_87fd_84cd75f8838d 0000000140008520     unity_common.obj
+ 0002:00001530       _GUID_6f15aaf2_d208_4e89_9ab4_489535d34f9c 0000000140008530     unity_common.obj
+ 0002:00001540       _GUID_ec5ec8a9_c395_4314_9c77_54d7a935ff70 0000000140008540     unity_common.obj
+ 0002:00001550       _GUID_95b4f95f_d8da_4ca4_9ee6_3b76d5968a10 0000000140008550     unity_common.obj
+ 0002:00001560       _GUID_3c8d99d1_4fbf_4181_a82c_af66bf7bd24e 0000000140008560     unity_common.obj
+ 0002:00001570       _GUID_94d99bdb_f1f8_4ab0_b236_7da0170edab1 0000000140008570     unity_common.obj
+ 0002:00001580       _GUID_8ffde202_a0e7_45df_9e01_e837801b5ea0 0000000140008580     unity_common.obj
+ 0002:00001590       _GUID_917600da_f58c_4c33_98d8_3e15b390fa24 0000000140008590     unity_common.obj
+ 0002:000015a0       __real@3f800000            00000001400085a0     unity_common.obj
+ 0002:000015a4       __real@40000000            00000001400085a4     unity_common.obj
+ 0002:000015a8       __real@bf800000            00000001400085a8     unity_common.obj
+ 0002:000015d8       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@ 00000001400085d8     unity_pathman.obj
+ 0002:000015f8       ??_7exception@std@@6B@     00000001400085f8     msvcrt:throw_bad_alloc.obj
+ 0002:00001608       ??_C@_0BC@EOODALEL@Unknown?5exception@ 0000000140008608     msvcrt:throw_bad_alloc.obj
+ 0002:00001628       ??_7bad_alloc@std@@6B@     0000000140008628     msvcrt:throw_bad_alloc.obj
+ 0002:00001638       ??_C@_0P@GHFPNOJB@bad?5allocation@ 0000000140008638     msvcrt:throw_bad_alloc.obj
+ 0002:00001650       ??_7bad_array_new_length@std@@6B@ 0000000140008650     msvcrt:throw_bad_alloc.obj
+ 0002:00001660       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 0000000140008660     msvcrt:throw_bad_alloc.obj
+ 0002:00001680       ??_7type_info@@6B@         0000000140008680     msvcrt:std_type_info_static.obj
+ 0002:00001688       CLSID_WICImagingFactory2   0000000140008688     dxguid:d3d10guid.obj
+ 0002:00001698       GUID_VendorMicrosoftBuiltIn 0000000140008698     dxguid:d3d10guid.obj
+ 0002:000016b0       ??_7logic_error@std@@6B@   00000001400086b0     libcpmt:xthrow.obj
+ 0002:000016c8       ??_7length_error@std@@6B@  00000001400086c8     libcpmt:xthrow.obj
+ 0002:00001738       ??_R4exception@std@@6B@    0000000140008738     msvcrt:throw_bad_alloc.obj
+ 0002:00001760       ??_R3exception@std@@8      0000000140008760     msvcrt:throw_bad_alloc.obj
+ 0002:00001778       ??_R2exception@std@@8      0000000140008778     msvcrt:throw_bad_alloc.obj
+ 0002:00001788       ??_R1A@?0A@EA@exception@std@@8 0000000140008788     msvcrt:throw_bad_alloc.obj
+ 0002:000017b0       ??_R4bad_alloc@std@@6B@    00000001400087b0     msvcrt:throw_bad_alloc.obj
+ 0002:000017d8       ??_R3bad_alloc@std@@8      00000001400087d8     msvcrt:throw_bad_alloc.obj
+ 0002:000017f0       ??_R2bad_alloc@std@@8      00000001400087f0     msvcrt:throw_bad_alloc.obj
+ 0002:00001808       ??_R1A@?0A@EA@bad_alloc@std@@8 0000000140008808     msvcrt:throw_bad_alloc.obj
+ 0002:00001830       ??_R4bad_array_new_length@std@@6B@ 0000000140008830     msvcrt:throw_bad_alloc.obj
+ 0002:00001858       ??_R3bad_array_new_length@std@@8 0000000140008858     msvcrt:throw_bad_alloc.obj
+ 0002:00001870       ??_R2bad_array_new_length@std@@8 0000000140008870     msvcrt:throw_bad_alloc.obj
+ 0002:00001890       ??_R1A@?0A@EA@bad_array_new_length@std@@8 0000000140008890     msvcrt:throw_bad_alloc.obj
+ 0002:000018b8       ??_R4type_info@@6B@        00000001400088b8     msvcrt:std_type_info_static.obj
+ 0002:000018e0       ??_R3type_info@@8          00000001400088e0     msvcrt:std_type_info_static.obj
+ 0002:000018f8       ??_R2type_info@@8          00000001400088f8     msvcrt:std_type_info_static.obj
+ 0002:00001908       ??_R1A@?0A@EA@type_info@@8 0000000140008908     msvcrt:std_type_info_static.obj
+ 0002:00001930       ??_R4logic_error@std@@6B@  0000000140008930     libcpmt:xthrow.obj
+ 0002:00001958       ??_R3logic_error@std@@8    0000000140008958     libcpmt:xthrow.obj
+ 0002:00001970       ??_R2logic_error@std@@8    0000000140008970     libcpmt:xthrow.obj
+ 0002:00001988       ??_R1A@?0A@EA@logic_error@std@@8 0000000140008988     libcpmt:xthrow.obj
+ 0002:000019b0       ??_R4length_error@std@@6B@ 00000001400089b0     libcpmt:xthrow.obj
+ 0002:000019d8       ??_R3length_error@std@@8   00000001400089d8     libcpmt:xthrow.obj
+ 0002:000019f0       ??_R2length_error@std@@8   00000001400089f0     libcpmt:xthrow.obj
+ 0002:00001a10       ??_R1A@?0A@EA@length_error@std@@8 0000000140008a10     libcpmt:xthrow.obj
+ 0002:00001e08       _TI2?AVbad_alloc@std@@     0000000140008e08     msvcrt:throw_bad_alloc.obj
+ 0002:00001e28       _CTA2?AVbad_alloc@std@@    0000000140008e28     msvcrt:throw_bad_alloc.obj
+ 0002:00001e40       _CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QEAA@AEBV01@@Z24 0000000140008e40     msvcrt:throw_bad_alloc.obj
+ 0002:00001e68       _CT??_R0?AVexception@std@@@8??0exception@std@@QEAA@AEBV01@@Z24 0000000140008e68     msvcrt:throw_bad_alloc.obj
+ 0002:00001e90       _TI3?AVbad_array_new_length@std@@ 0000000140008e90     msvcrt:throw_bad_alloc.obj
+ 0002:00001eb0       _CTA3?AVbad_array_new_length@std@@ 0000000140008eb0     msvcrt:throw_bad_alloc.obj
+ 0002:00001ed0       _CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QEAA@AEBV01@@Z24 0000000140008ed0     msvcrt:throw_bad_alloc.obj
+ 0002:00001ef8       _CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QEAA@AEBV01@@Z24 0000000140008ef8     libcpmt:xthrow.obj
+ 0002:00001f20       _TI3?AVlength_error@std@@  0000000140008f20     libcpmt:xthrow.obj
+ 0002:00001f40       _CTA3?AVlength_error@std@@ 0000000140008f40     libcpmt:xthrow.obj
+ 0002:00001f60       _CT??_R0?AVlength_error@std@@@8??0length_error@std@@QEAA@AEBV01@@Z24 0000000140008f60     libcpmt:xthrow.obj
+ 0002:00001f84       __IMPORT_DESCRIPTOR_KERNEL32 0000000140008f84     kernel32:KERNEL32.dll
+ 0002:00001f98       __IMPORT_DESCRIPTOR_USER32 0000000140008f98     user32:USER32.dll
+ 0002:00001fac       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0000000140008fac     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00001fc0       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 0000000140008fc0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001fd4       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 0000000140008fd4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00001fe8       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 0000000140008fe8     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00001ffc       __IMPORT_DESCRIPTOR_VCRUNTIME140 0000000140008ffc     vcruntime:VCRUNTIME140.dll
+ 0002:00002010       __IMPORT_DESCRIPTOR_d3d11  0000000140009010     d3d11:d3d11.dll
+ 0002:00002024       __IMPORT_DESCRIPTOR_D3DCOMPILER_47 0000000140009024     d3dcompiler:D3DCOMPILER_47.dll
+ 0002:00002038       __IMPORT_DESCRIPTOR_ole32  0000000140009038     ole32:ole32.dll
+ 0002:0000204c       __NULL_IMPORT_DESCRIPTOR   000000014000904c     kernel32:KERNEL32.dll
  0003:00000380       _fltused                   000000014000a380     msvcrt:fltused.obj
  0003:00000388       ??_R0?AVbad_alloc@std@@@8  000000014000a388     msvcrt:throw_bad_alloc.obj
  0003:000003b0       ??_R0?AVexception@std@@@8  000000014000a3b0     msvcrt:throw_bad_alloc.obj
@@ -354,7 +353,7 @@
  0003:00000450       ??_R0?AVlength_error@std@@@8 000000014000a450     libcpmt:xthrow.obj
  0003:00000478       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000014000a478     unity_common.obj
 
- entry point at        0001:00003100
+ entry point at        0001:00003070
 
  Static symbols
 
@@ -401,16 +400,17 @@
  0001:00002320       ?draw_sprite@@YAXPEAUsprite_batch@@PEAUtexture@@HHHH@Z 0000000140003320 f   unity_pathman.obj
  0001:000023c0       ?render@@YAXPEAUd3d_context@@PEAUsprite_batch@@PEAUtexture@@@Z 00000001400033c0 f   unity_pathman.obj
  0001:00002580       ?load_sprite_sheet@@YAXPEAUtexture@@PEAUd3d_context@@@Z 0000000140003580 f   unity_pathman.obj
- 0001:00004ea0       $$000000                   0000000140005ea0     msvcrt:chkstk.obj
+ 0001:00004eb0       $$000000                   0000000140005eb0     msvcrt:chkstk.obj
  0002:00000160       $SG125754                  0000000140007160     unity_common.obj
  0002:00000168       $SG125755                  0000000140007168     unity_common.obj
+ 0002:000001a4       $SG125798                  00000001400071a4     unity_common.obj
  0002:000001a8       $SG125756                  00000001400071a8     unity_common.obj
  0002:000001c8       $SG125789                  00000001400071c8     unity_common.obj
  0002:000001e0       $SG125791                  00000001400071e0     unity_common.obj
  0002:000001f0       $SG125792                  00000001400071f0     unity_common.obj
- 0002:00000230       $SG125793                  0000000140007230     unity_common.obj
- 0002:00000250       $SG125796                  0000000140007250     unity_common.obj
- 0002:00000268       $SG125798                  0000000140007268     unity_common.obj
+ 0002:0000022c       $SG125919                  000000014000722c     unity_common.obj
+ 0002:00000238       $SG125793                  0000000140007238     unity_common.obj
+ 0002:00000258       $SG125796                  0000000140007258     unity_common.obj
  0002:00000270       $SG125799                  0000000140007270     unity_common.obj
  0002:000002b0       $SG125800                  00000001400072b0     unity_common.obj
  0002:000002d0       $SG125857                  00000001400072d0     unity_common.obj
@@ -429,204 +429,202 @@
  0002:00000580       $SG125876                  0000000140007580     unity_common.obj
  0002:000005a8       $SG125900                  00000001400075a8     unity_common.obj
  0002:000005e8       $SG125901                  00000001400075e8     unity_common.obj
- 0002:0000060c       $SG125919                  000000014000760c     unity_common.obj
- 0002:00000614       $SG125921                  0000000140007614     unity_common.obj
- 0002:0000061c       $SG125922                  000000014000761c     unity_common.obj
- 0002:00000628       $SG125924                  0000000140007628     unity_common.obj
- 0002:00000648       $SG125938                  0000000140007648     unity_common.obj
- 0002:00000688       $SG125939                  0000000140007688     unity_common.obj
- 0002:000006b0       $SG125953                  00000001400076b0     unity_common.obj
- 0002:000006f0       $SG125954                  00000001400076f0     unity_common.obj
- 0002:00000718       $SG126029                  0000000140007718     unity_common.obj
- 0002:00000758       $SG126030                  0000000140007758     unity_common.obj
- 0002:00000780       $SG126032                  0000000140007780     unity_common.obj
- 0002:000007c0       $SG126033                  00000001400077c0     unity_common.obj
- 0002:000007e8       $SG126035                  00000001400077e8     unity_common.obj
- 0002:00000828       $SG126036                  0000000140007828     unity_common.obj
- 0002:00000850       $SG126038                  0000000140007850     unity_common.obj
- 0002:00000890       $SG126039                  0000000140007890     unity_common.obj
- 0002:000008b8       $SG126041                  00000001400078b8     unity_common.obj
- 0002:000008f8       $SG126042                  00000001400078f8     unity_common.obj
- 0002:00000920       $SG126044                  0000000140007920     unity_common.obj
- 0002:00000960       $SG126045                  0000000140007960     unity_common.obj
- 0002:00000988       $SG126047                  0000000140007988     unity_common.obj
- 0002:000009c8       $SG126048                  00000001400079c8     unity_common.obj
- 0002:000009f0       $SG126050                  00000001400079f0     unity_common.obj
- 0002:00000a30       $SG126051                  0000000140007a30     unity_common.obj
- 0002:00000a58       $SG126053                  0000000140007a58     unity_common.obj
- 0002:00000a98       $SG126054                  0000000140007a98     unity_common.obj
- 0002:00000ac0       ?sprite_shader@@3QBDB      0000000140007ac0     unity_common.obj
- 0002:00001178       $SG126115                  0000000140008178     unity_common.obj
+ 0002:0000060c       $SG125921                  000000014000760c     unity_common.obj
+ 0002:00000614       $SG125922                  0000000140007614     unity_common.obj
+ 0002:00000620       $SG125924                  0000000140007620     unity_common.obj
+ 0002:00000640       $SG125938                  0000000140007640     unity_common.obj
+ 0002:00000680       $SG125939                  0000000140007680     unity_common.obj
+ 0002:000006a8       $SG125953                  00000001400076a8     unity_common.obj
+ 0002:000006e8       $SG125954                  00000001400076e8     unity_common.obj
+ 0002:00000710       $SG126029                  0000000140007710     unity_common.obj
+ 0002:00000750       $SG126030                  0000000140007750     unity_common.obj
+ 0002:00000778       $SG126032                  0000000140007778     unity_common.obj
+ 0002:000007b8       $SG126033                  00000001400077b8     unity_common.obj
+ 0002:000007e0       $SG126035                  00000001400077e0     unity_common.obj
+ 0002:00000820       $SG126036                  0000000140007820     unity_common.obj
+ 0002:00000848       $SG126038                  0000000140007848     unity_common.obj
+ 0002:00000888       $SG126039                  0000000140007888     unity_common.obj
+ 0002:000008b0       $SG126041                  00000001400078b0     unity_common.obj
+ 0002:000008f0       $SG126042                  00000001400078f0     unity_common.obj
+ 0002:00000918       $SG126044                  0000000140007918     unity_common.obj
+ 0002:00000958       $SG126045                  0000000140007958     unity_common.obj
+ 0002:00000980       $SG126047                  0000000140007980     unity_common.obj
+ 0002:000009c0       $SG126048                  00000001400079c0     unity_common.obj
+ 0002:000009e8       $SG126050                  00000001400079e8     unity_common.obj
+ 0002:00000a28       $SG126051                  0000000140007a28     unity_common.obj
+ 0002:00000a50       $SG126053                  0000000140007a50     unity_common.obj
+ 0002:00000a90       $SG126054                  0000000140007a90     unity_common.obj
+ 0002:00000ab8       $SG126115                  0000000140007ab8     unity_common.obj
+ 0002:00000ae0       ?sprite_shader@@3QBDB      0000000140007ae0     unity_common.obj
+ 0002:00001194       $SG126147                  0000000140008194     unity_common.obj
  0002:000011a0       $SG126114                  00000001400081a0     unity_common.obj
- 0002:000011e8       $SG126147                  00000001400081e8     unity_common.obj
- 0002:000011f0       $SG126148                  00000001400081f0     unity_common.obj
- 0002:000011f8       $SG126151                  00000001400081f8     unity_common.obj
- 0002:00001220       $SG126150                  0000000140008220     unity_common.obj
- 0002:00001268       $SG126154                  0000000140008268     unity_common.obj
- 0002:00001290       $SG126153                  0000000140008290     unity_common.obj
- 0002:000012d8       $SG126157                  00000001400082d8     unity_common.obj
- 0002:00001300       $SG126156                  0000000140008300     unity_common.obj
- 0002:00001348       $SG126337                  0000000140008348     unity_common.obj
- 0002:00001388       $SG126338                  0000000140008388     unity_common.obj
- 0002:000013b0       $SG126348                  00000001400083b0     unity_common.obj
- 0002:000013f0       $SG126349                  00000001400083f0     unity_common.obj
- 0002:00001418       $SG126359                  0000000140008418     unity_common.obj
- 0002:00001458       $SG126360                  0000000140008458     unity_common.obj
- 0002:00001480       $SG126370                  0000000140008480     unity_common.obj
- 0002:000014c0       $SG126371                  00000001400084c0     unity_common.obj
- 0002:000014e8       $SG126381                  00000001400084e8     unity_common.obj
- 0002:00001528       $SG126382                  0000000140008528     unity_common.obj
- 0002:000015e0       $SG142496                  00000001400085e0     unity_pathman.obj
- 0002:000015f8       $SG143427                  00000001400085f8     unity_pathman.obj
- 0002:00001bf8       $unwind$??$_Uninitialized_move_al_unchecked@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@PEAU1@QEAU1@1AEAV?$allocator@Unode@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z 0000000140008bf8     unity_pathman.obj
- 0002:00001bf8       $unwind$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@Unode@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@V10@V10@AEBUnode@@@Z 0000000140008bf8     unity_pathman.obj
- 0002:00001bf8       $unwind$vsnprintf          0000000140008bf8     unity_common.obj
- 0002:00001c00       $unwind$?create_display@@YAXPEAUdisplay_context@@PEBDHHHH_N@Z 0000000140008c00     unity_common.obj
- 0002:00001c0c       $unwind$?init_d3d@@YAXPEAUd3d_context@@PEAUdisplay_context@@_N@Z 0000000140008c0c     unity_common.obj
- 0002:00001c14       $unwind$?term_d3d@@YAXPEAUd3d_context@@@Z 0000000140008c14     unity_common.obj
- 0002:00001c1c       $unwind$?begin_frame@@YAXPEAUd3d_context@@@Z 0000000140008c1c     unity_common.obj
- 0002:00001c24       $unwind$?end_frame@@YAXPEAUd3d_context@@@Z 0000000140008c24     unity_common.obj
- 0002:00001c2c       $unwind$?compile_vertex_shader@@YAPEAUID3D11VertexShader@@PEAPEAUID3D10Blob@@PEAUd3d_context@@PEBD_K2@Z 0000000140008c2c     unity_common.obj
- 0002:00001c34       $unwind$?compile_pixel_shader@@YAPEAUID3D11PixelShader@@PEAUd3d_context@@PEBD_K1@Z 0000000140008c34     unity_common.obj
- 0002:00001c3c       $unwind$?read_entire_file@@YAPEAXPEBDPEA_K@Z 0000000140008c3c     unity_common.obj
- 0002:00001c44       $unwind$?load_png@@YAXPEAUd3d_context@@PEAUtexture@@PEAX_K@Z 0000000140008c44     unity_common.obj
- 0002:00001c50       $unwind$?debug_printf@@YAXPEBDZZ 0000000140008c50     unity_common.obj
- 0002:00001c58       $unwind$?sprite_batch_init@@YAXPEAUsprite_batch@@PEAUd3d_context@@@Z 0000000140008c58     unity_common.obj
- 0002:00001c64       $unwind$?sprite_batch_term@@YAXPEAUsprite_batch@@@Z 0000000140008c64     unity_common.obj
- 0002:00001c6c       $unwind$?sprite_batch_begin@@YAXPEAUsprite_batch@@@Z 0000000140008c6c     unity_common.obj
- 0002:00001c74       $unwind$?sprite_batch_end@@YAXPEAUsprite_batch@@@Z 0000000140008c74     unity_common.obj
- 0002:00001c7c       $unwind$?sprite_batch_draw@@YAXPEAUsprite_batch@@PEAUtexture@@HHHHHHHH@Z 0000000140008c7c     unity_common.obj
- 0002:00001c84       $unwind$?wnd_proc@@YA_JPEAUHWND__@@I_K_J@Z 0000000140008c84     unity_common.obj
- 0002:00001c8c       $unwind$?get_client_rect@@YA?AUtagRECT@@PEAUHWND__@@@Z 0000000140008c8c     unity_common.obj
- 0002:00001c98       $unwind$?create_swap_chain@@YAXPEAUd3d_context@@PEAUdisplay_context@@@Z 0000000140008c98     unity_common.obj
- 0002:00001ca4       $unwind$?compile_shader@@YAPEAUID3D10Blob@@PEBD_KW4shader_type@@0@Z 0000000140008ca4     unity_common.obj
- 0002:00001cac       $unwind$?sprite_batch_map@@YAXPEAUsprite_batch@@@Z 0000000140008cac     unity_common.obj
- 0002:00001cb4       $unwind$?sprite_batch_unmap@@YAXPEAUsprite_batch@@@Z 0000000140008cb4     unity_common.obj
- 0002:00001cbc       $unwind$?sprite_batch_flush@@YAXPEAUsprite_batch@@@Z 0000000140008cbc     unity_common.obj
- 0002:00001cc4       $unwind$??$com_cast@UIDXGISwapChain3@@@@YAPEAUIDXGISwapChain3@@PEAUIUnknown@@@Z 0000000140008cc4     unity_common.obj
- 0002:00001cc4       $unwind$??$com_cast@UID3D11DeviceContext4@@@@YAPEAUID3D11DeviceContext4@@PEAUIUnknown@@@Z 0000000140008cc4     unity_common.obj
- 0002:00001cc4       $unwind$??$com_cast@UID3D11Device5@@@@YAPEAUID3D11Device5@@PEAUIUnknown@@@Z 0000000140008cc4     unity_common.obj
- 0002:00001cc4       $unwind$??$com_cast@UIDXGIAdapter4@@@@YAPEAUIDXGIAdapter4@@PEAUIUnknown@@@Z 0000000140008cc4     unity_common.obj
- 0002:00001cc4       $unwind$??$com_cast@UIDXGIDevice4@@@@YAPEAUIDXGIDevice4@@PEAUIUnknown@@@Z 0000000140008cc4     unity_common.obj
- 0002:00001cc4       $unwind$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 0000000140008cc4     unity_pathman.obj
- 0002:00001ccc       $unwind$??1?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXXZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$??1?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$??$_Get_unwrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@$0A@@std@@YAPEAUnode@@AEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@@Z 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001ccc       $unwind$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140008ccc     unity_pathman.obj
- 0002:00001cd4       $unwind$??$emplace_back@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@AEBU2@@Z 0000000140008cd4     unity_pathman.obj
- 0002:00001cd4       $unwind$??$emplace_back@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@$$QEAU2@@Z 0000000140008cd4     unity_pathman.obj
- 0002:00001cd4       $unwind$??$_Emplace_back@Unode@@@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140008cd4     unity_pathman.obj
- 0002:00001cd4       $unwind$?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 0000000140008cd4     unity_pathman.obj
- 0002:00001cd4       $unwind$??$?0V?$allocator@Unode@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Unode@@@1@@Z 0000000140008cd4     unity_pathman.obj
- 0002:00001cd4       $unwind$?_Calculate_growth@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_K_K@Z 0000000140008cd4     unity_pathman.obj
- 0002:00001cdc       $unwind$??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 0000000140008cdc     unity_pathman.obj
- 0002:00001ce4       $unwind$?draw_sprite@@YAXPEAUsprite_batch@@PEAUtexture@@HHHH@Z 0000000140008ce4     unity_pathman.obj
- 0002:00001cec       $unwind$?render@@YAXPEAUd3d_context@@PEAUsprite_batch@@PEAUtexture@@@Z 0000000140008cec     unity_pathman.obj
- 0002:00001cf4       $unwind$?load_sprite_sheet@@YAXPEAUtexture@@PEAUd3d_context@@@Z 0000000140008cf4     unity_pathman.obj
- 0002:00001cfc       $unwind$?getLowestF@@YA?AUnode@@AEBV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@@Z 0000000140008cfc     unity_pathman.obj
- 0002:00001d08       $unwind$?removeNode@@YAXAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBUnode@@@Z 0000000140008d08     unity_pathman.obj
- 0002:00001d10       $unwind$?makeNode@@YA?AUnode@@HH@Z 0000000140008d10     unity_pathman.obj
- 0002:00001d1c       $unwind$?getAdjacent@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@Unode@@@Z 0000000140008d1c     unity_pathman.obj
- 0002:00001d24       $unwind$?inList@@YA_NAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAUnode@@@Z 0000000140008d24     unity_pathman.obj
- 0002:00001d2c       $unwind$?getNodeInList@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAU1@@Z 0000000140008d2c     unity_pathman.obj
- 0002:00001d38       $unwind$?getParent@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@PEAU1@@Z 0000000140008d38     unity_pathman.obj
- 0002:00001d44       $unwind$?distanceBetweenNodes@@YAMAEBUnode@@0@Z 0000000140008d44     unity_pathman.obj
- 0002:00001d4c       $unwind$?pathFinding@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@XZ 0000000140008d4c     unity_pathman.obj
- 0002:00001d58       $unwind$main               0000000140008d58     unity_pathman.obj
- 0002:00001d60       $unwind$??0node@@QEAA@HH@Z 0000000140008d60     unity_pathman.obj
- 0002:00001d60       $unwind$??$?0V?$allocator@Unode@@@std@@$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Unode@@@1@@Z 0000000140008d60     unity_pathman.obj
- 0002:00001d68       $unwind$?deallocate@?$allocator@Unode@@@std@@QEAAXQEAUnode@@_K@Z 0000000140008d68     unity_pathman.obj
- 0002:00001d68       $unwind$??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140008d68     unity_pathman.obj
- 0002:00001d68       $unwind$?_Destroy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@0@Z 0000000140008d68     unity_pathman.obj
- 0002:00001d68       $unwind$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140008d68     unity_pathman.obj
- 0002:00001d68       $unwind$??$_Reverse_unchecked1@PEAUnode@@@std@@YAXPEAUnode@@0U?$integral_constant@_K$0A@@0@@Z 0000000140008d68     unity_pathman.obj
- 0002:00001d70       $unwind$??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@_K@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@PEAUnode@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@AEBQEAUnode@@@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAXAEBUnode@@@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBAAEBUnode@@_K@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$?_Seek_to@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAAXPEBUnode@@@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$??$iter_swap@PEAUnode@@PEAU1@@std@@YAXPEAUnode@@0@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$?allocate@?$allocator@Unode@@@std@@QEAAPEAUnode@@_K@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d70       $unwind$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140008d70     unity_pathman.obj
- 0002:00001d78       $unwind$?size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140008d78     unity_pathman.obj
- 0002:00001d78       $unwind$?capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140008d78     unity_pathman.obj
- 0002:00001d78       $unwind$?_Has_unused_capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_NXZ 0000000140008d78     unity_pathman.obj
- 0002:00001d78       $unwind$??0?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@XZ 0000000140008d78     unity_pathman.obj
- 0002:00001d78       $unwind$?empty@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_NXZ 0000000140008d78     unity_pathman.obj
- 0002:00001d78       $unwind$?max_size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140008d78     unity_pathman.obj
- 0002:00001d80       $unwind$?begin@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140008d80     unity_pathman.obj
- 0002:00001d80       $unwind$?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXAEAV12@@Z 0000000140008d80     unity_pathman.obj
- 0002:00001d80       $unwind$?end@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140008d80     unity_pathman.obj
- 0002:00001d80       $unwind$??$reverse@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 0000000140008d80     unity_pathman.obj
- 0002:00001d88       $unwind$??$_Move_unchecked@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140008d88     unity_pathman.obj
- 0002:00001d88       $unwind$?erase@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@@Z 0000000140008d88     unity_pathman.obj
- 0002:00001d88       $unwind$??$_Copy_memmove@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140008d88     unity_pathman.obj
- 0002:00001d88       $unwind$?_Move_from@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAX$$QEAV12@U?$integral_constant@_N$00@2@@Z 0000000140008d88     unity_pathman.obj
- 0002:00001d90       $unwind$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@$$QEAV01@@Z 0000000140008d90     unity_pathman.obj
- 0002:00001d90       $unwind$??$_Reverse_unchecked@PEAUnode@@@std@@YAXQEAUnode@@0@Z 0000000140008d90     unity_pathman.obj
- 0002:00001d98       $unwind$?_Umove@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAPEAUnode@@PEAU3@00@Z 0000000140008d98     unity_pathman.obj
- 0002:00001d98       $unwind$??$_Move_unchecked1@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z 0000000140008d98     unity_pathman.obj
- 0002:00001d98       $unwind$??$_Find_unchecked1@PEAUnode@@U1@@std@@YAPEAUnode@@PEAU1@QEAU1@AEBU1@U?$integral_constant@_N$0A@@0@@Z 0000000140008d98     unity_pathman.obj
- 0002:00001d98       $unwind$?_Umove_if_noexcept1@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00U?$integral_constant@_N$00@2@@Z 0000000140008d98     unity_pathman.obj
- 0002:00001da0       $unwind$?_Umove_if_noexcept@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00@Z 0000000140008da0     unity_pathman.obj
- 0002:00001da8       $unwind$?_Change_array@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXQEAUnode@@_K1@Z 0000000140008da8     unity_pathman.obj
- 0002:00001db0       $unwind$?_Tidy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXXZ 0000000140008db0     unity_pathman.obj
- 0002:00001db8       $unwind$?_Xlength@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@CAXXZ 0000000140008db8     unity_pathman.obj
- 0002:00001dc0       $unwind$??$pow@HHX@@YANHH@Z 0000000140008dc0     unity_pathman.obj
- 0002:00001dc8       $unwind$??$_Emplace_back_with_unused_capacity@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@$$QEAU2@@Z 0000000140008dc8     unity_pathman.obj
- 0002:00001dc8       $unwind$??$_Emplace_back_with_unused_capacity@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@AEBU2@@Z 0000000140008dc8     unity_pathman.obj
- 0002:00001dd0       $unwind$??$construct@Unode@@U1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@$$QEAU3@@Z 0000000140008dd0     unity_pathman.obj
- 0002:00001dd0       $unwind$??$construct@Unode@@AEBU1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@AEBU3@@Z 0000000140008dd0     unity_pathman.obj
- 0002:00001ddc       $unwind$??$_Emplace_reallocate@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@$$QEAU2@@Z 0000000140008ddc     unity_pathman.obj
- 0002:00001ddc       $unwind$??$_Emplace_reallocate@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@AEBU2@@Z 0000000140008ddc     unity_pathman.obj
- 0002:00001de4       $unwind$??$?0$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 0000000140008de4     unity_pathman.obj
- 0002:00001dec       $unwind$??$_Find_unchecked@PEAUnode@@U1@@std@@YAPEAUnode@@QEAU1@0AEBU1@@Z 0000000140008dec     unity_pathman.obj
- 0002:00001dec       $unwind$??$_Destroy_range@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@@Z 0000000140008dec     unity_pathman.obj
- 0002:00001df4       $unwind$??$_Ptr_move_cat@Unode@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@AEBQEAUnode@@0@Z 0000000140008df4     unity_pathman.obj
- 0002:00001dfc       $unwind$??$_Uninitialized_move@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@QEAU1@0PEAU1@AEAV?$allocator@Unode@@@0@@Z 0000000140008dfc     unity_pathman.obj
- 0002:00001e04       $unwind$??$_Get_size_of_n@$0CA@@std@@YA_K_K@Z 0000000140008e04     unity_pathman.obj
- 0002:00001e0c       $unwind$??$swap@Unode@@X@std@@YAXAEAUnode@@0@Z 0000000140008e0c     unity_pathman.obj
- 0002:00001e18       $xdatasym                  0000000140008e18     msvcrt:chkstk.obj
- 0002:00001e20       $unwind$??0exception@std@@QEAA@AEBV01@@Z 0000000140008e20     msvcrt:throw_bad_alloc.obj
- 0002:00001e20       $unwind$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 0000000140008e20     msvcrt:throw_bad_alloc.obj
- 0002:00001e20       $unwind$??2@YAPEAX_K@Z     0000000140008e20     msvcrt:new_scalar.obj
- 0002:00001e20       $unwind$??0logic_error@std@@QEAA@AEBV01@@Z 0000000140008e20     libcpmt:xthrow.obj
- 0002:00001e20       $unwind$??0length_error@std@@QEAA@AEBV01@@Z 0000000140008e20     libcpmt:xthrow.obj
- 0002:00001e20       $unwind$??_Gtype_info@@UEAAPEAXI@Z 0000000140008e20     msvcrt:std_type_info_static.obj
- 0002:00001e20       $unwind$??0bad_alloc@std@@QEAA@AEBV01@@Z 0000000140008e20     msvcrt:throw_bad_alloc.obj
- 0002:00001e28       $unwind$??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000140008e28     msvcrt:throw_bad_alloc.obj
- 0002:00001e28       $unwind$??_Gexception@std@@UEAAPEAXI@Z 0000000140008e28     msvcrt:throw_bad_alloc.obj
- 0002:00001e28       $unwind$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 0000000140008e28     msvcrt:throw_bad_alloc.obj
- 0002:00001e28       $unwind$??_Glength_error@std@@UEAAPEAXI@Z 0000000140008e28     libcpmt:xthrow.obj
- 0002:00001e28       $unwind$??_Glogic_error@std@@UEAAPEAXI@Z 0000000140008e28     libcpmt:xthrow.obj
- 0002:00001e34       $unwind$?__scrt_throw_std_bad_array_new_length@@YAXXZ 0000000140008e34     msvcrt:throw_bad_alloc.obj
- 0002:00001e34       $unwind$?_Xlength_error@std@@YAXPEBD@Z 0000000140008e34     libcpmt:xthrow.obj
- 0002:00001e34       $unwind$?__scrt_throw_std_bad_alloc@@YAXXZ 0000000140008e34     msvcrt:throw_bad_alloc.obj
- 0002:00001e3c       $unwind$??0length_error@std@@QEAA@PEBD@Z 0000000140008e3c     libcpmt:xthrow.obj
- 0002:0000228e       .idata$6                   000000014000928e     kernel32:KERNEL32.dll
- 0002:0000236a       .idata$6                   000000014000936a     user32:USER32.dll
- 0002:000023ce       .idata$6                   00000001400093ce     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0002:000023ee       .idata$6                   00000001400093ee     ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0002:0000240e       .idata$6                   000000014000940e     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0002:00002430       .idata$6                   0000000140009430     ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0002:0000245a       .idata$6                   000000014000945a     vcruntime:VCRUNTIME140.dll
- 0002:00002480       .idata$6                   0000000140009480     d3d11:d3d11.dll
- 0002:00002498       .idata$6                   0000000140009498     d3dcompiler:D3DCOMPILER_47.dll
- 0002:000024c0       .idata$6                   00000001400094c0     ole32:ole32.dll
+ 0002:000011e4       $SG126148                  00000001400081e4     unity_common.obj
+ 0002:000011f0       $SG126150                  00000001400081f0     unity_common.obj
+ 0002:00001238       $SG126151                  0000000140008238     unity_common.obj
+ 0002:00001260       $SG126153                  0000000140008260     unity_common.obj
+ 0002:000012a8       $SG126154                  00000001400082a8     unity_common.obj
+ 0002:000012d0       $SG126156                  00000001400082d0     unity_common.obj
+ 0002:00001318       $SG126157                  0000000140008318     unity_common.obj
+ 0002:00001340       $SG126337                  0000000140008340     unity_common.obj
+ 0002:00001378       $SG126338                  0000000140008378     unity_common.obj
+ 0002:000013a0       $SG126348                  00000001400083a0     unity_common.obj
+ 0002:000013d8       $SG126349                  00000001400083d8     unity_common.obj
+ 0002:00001400       $SG126359                  0000000140008400     unity_common.obj
+ 0002:00001438       $SG126360                  0000000140008438     unity_common.obj
+ 0002:00001460       $SG126370                  0000000140008460     unity_common.obj
+ 0002:00001498       $SG126371                  0000000140008498     unity_common.obj
+ 0002:000014c0       $SG126381                  00000001400084c0     unity_common.obj
+ 0002:000014f8       $SG126382                  00000001400084f8     unity_common.obj
+ 0002:000015b0       $SG142496                  00000001400085b0     unity_pathman.obj
+ 0002:000015c8       $SG143419                  00000001400085c8     unity_pathman.obj
+ 0002:00001bc0       $unwind$??$_Uninitialized_move_al_unchecked@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@PEAU1@QEAU1@1AEAV?$allocator@Unode@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z 0000000140008bc0     unity_pathman.obj
+ 0002:00001bc0       $unwind$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@Unode@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@V10@V10@AEBUnode@@@Z 0000000140008bc0     unity_pathman.obj
+ 0002:00001bc0       $unwind$vsnprintf          0000000140008bc0     unity_common.obj
+ 0002:00001bc8       $unwind$?create_display@@YAXPEAUdisplay_context@@PEBDHHHH_N@Z 0000000140008bc8     unity_common.obj
+ 0002:00001bd4       $unwind$?init_d3d@@YAXPEAUd3d_context@@PEAUdisplay_context@@_N@Z 0000000140008bd4     unity_common.obj
+ 0002:00001bdc       $unwind$?term_d3d@@YAXPEAUd3d_context@@@Z 0000000140008bdc     unity_common.obj
+ 0002:00001be4       $unwind$?begin_frame@@YAXPEAUd3d_context@@@Z 0000000140008be4     unity_common.obj
+ 0002:00001bec       $unwind$?end_frame@@YAXPEAUd3d_context@@@Z 0000000140008bec     unity_common.obj
+ 0002:00001bf4       $unwind$?compile_vertex_shader@@YAPEAUID3D11VertexShader@@PEAPEAUID3D10Blob@@PEAUd3d_context@@PEBD_K2@Z 0000000140008bf4     unity_common.obj
+ 0002:00001bfc       $unwind$?compile_pixel_shader@@YAPEAUID3D11PixelShader@@PEAUd3d_context@@PEBD_K1@Z 0000000140008bfc     unity_common.obj
+ 0002:00001c04       $unwind$?read_entire_file@@YAPEAXPEBDPEA_K@Z 0000000140008c04     unity_common.obj
+ 0002:00001c0c       $unwind$?load_png@@YAXPEAUd3d_context@@PEAUtexture@@PEAX_K@Z 0000000140008c0c     unity_common.obj
+ 0002:00001c18       $unwind$?debug_printf@@YAXPEBDZZ 0000000140008c18     unity_common.obj
+ 0002:00001c20       $unwind$?sprite_batch_init@@YAXPEAUsprite_batch@@PEAUd3d_context@@@Z 0000000140008c20     unity_common.obj
+ 0002:00001c2c       $unwind$?sprite_batch_term@@YAXPEAUsprite_batch@@@Z 0000000140008c2c     unity_common.obj
+ 0002:00001c34       $unwind$?sprite_batch_begin@@YAXPEAUsprite_batch@@@Z 0000000140008c34     unity_common.obj
+ 0002:00001c3c       $unwind$?sprite_batch_end@@YAXPEAUsprite_batch@@@Z 0000000140008c3c     unity_common.obj
+ 0002:00001c44       $unwind$?sprite_batch_draw@@YAXPEAUsprite_batch@@PEAUtexture@@HHHHHHHH@Z 0000000140008c44     unity_common.obj
+ 0002:00001c4c       $unwind$?wnd_proc@@YA_JPEAUHWND__@@I_K_J@Z 0000000140008c4c     unity_common.obj
+ 0002:00001c54       $unwind$?get_client_rect@@YA?AUtagRECT@@PEAUHWND__@@@Z 0000000140008c54     unity_common.obj
+ 0002:00001c60       $unwind$?create_swap_chain@@YAXPEAUd3d_context@@PEAUdisplay_context@@@Z 0000000140008c60     unity_common.obj
+ 0002:00001c6c       $unwind$?compile_shader@@YAPEAUID3D10Blob@@PEBD_KW4shader_type@@0@Z 0000000140008c6c     unity_common.obj
+ 0002:00001c74       $unwind$?sprite_batch_map@@YAXPEAUsprite_batch@@@Z 0000000140008c74     unity_common.obj
+ 0002:00001c7c       $unwind$?sprite_batch_unmap@@YAXPEAUsprite_batch@@@Z 0000000140008c7c     unity_common.obj
+ 0002:00001c84       $unwind$?sprite_batch_flush@@YAXPEAUsprite_batch@@@Z 0000000140008c84     unity_common.obj
+ 0002:00001c8c       $unwind$??$com_cast@UIDXGIAdapter4@@@@YAPEAUIDXGIAdapter4@@PEAUIUnknown@@@Z 0000000140008c8c     unity_common.obj
+ 0002:00001c8c       $unwind$??$com_cast@UIDXGISwapChain3@@@@YAPEAUIDXGISwapChain3@@PEAUIUnknown@@@Z 0000000140008c8c     unity_common.obj
+ 0002:00001c8c       $unwind$??$com_cast@UID3D11DeviceContext4@@@@YAPEAUID3D11DeviceContext4@@PEAUIUnknown@@@Z 0000000140008c8c     unity_common.obj
+ 0002:00001c8c       $unwind$??$com_cast@UIDXGIDevice4@@@@YAPEAUIDXGIDevice4@@PEAUIUnknown@@@Z 0000000140008c8c     unity_common.obj
+ 0002:00001c8c       $unwind$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 0000000140008c8c     unity_pathman.obj
+ 0002:00001c8c       $unwind$??$com_cast@UID3D11Device5@@@@YAPEAUID3D11Device5@@PEAUIUnknown@@@Z 0000000140008c8c     unity_common.obj
+ 0002:00001c94       $unwind$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$??1?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$??$_Get_unwrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@$0A@@std@@YAPEAUnode@@AEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@@Z 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$??1?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXXZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Allocate@_Default_allocate_traits@std@@SAPEAX_K@Z 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c94       $unwind$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 0000000140008c94     unity_pathman.obj
+ 0002:00001c9c       $unwind$??$_Emplace_back@Unode@@@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140008c9c     unity_pathman.obj
+ 0002:00001c9c       $unwind$??$?0V?$allocator@Unode@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Unode@@@1@@Z 0000000140008c9c     unity_pathman.obj
+ 0002:00001c9c       $unwind$??$emplace_back@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@AEBU2@@Z 0000000140008c9c     unity_pathman.obj
+ 0002:00001c9c       $unwind$?_Calculate_growth@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_K_K@Z 0000000140008c9c     unity_pathman.obj
+ 0002:00001c9c       $unwind$??$emplace_back@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@$$QEAU2@@Z 0000000140008c9c     unity_pathman.obj
+ 0002:00001c9c       $unwind$?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z 0000000140008c9c     unity_pathman.obj
+ 0002:00001ca4       $unwind$??$_Min_value@_K@std@@YAAEB_KAEB_K0@Z 0000000140008ca4     unity_pathman.obj
+ 0002:00001cac       $unwind$?draw_sprite@@YAXPEAUsprite_batch@@PEAUtexture@@HHHH@Z 0000000140008cac     unity_pathman.obj
+ 0002:00001cb4       $unwind$?render@@YAXPEAUd3d_context@@PEAUsprite_batch@@PEAUtexture@@@Z 0000000140008cb4     unity_pathman.obj
+ 0002:00001cbc       $unwind$?load_sprite_sheet@@YAXPEAUtexture@@PEAUd3d_context@@@Z 0000000140008cbc     unity_pathman.obj
+ 0002:00001cc4       $unwind$?getLowestF@@YA?AUnode@@AEBV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@@Z 0000000140008cc4     unity_pathman.obj
+ 0002:00001cd0       $unwind$?removeNode@@YAXAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBUnode@@@Z 0000000140008cd0     unity_pathman.obj
+ 0002:00001cd8       $unwind$?makeNode@@YA?AUnode@@HH@Z 0000000140008cd8     unity_pathman.obj
+ 0002:00001ce4       $unwind$?getAdjacent@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@Unode@@@Z 0000000140008ce4     unity_pathman.obj
+ 0002:00001cec       $unwind$?inList@@YA_NAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAUnode@@@Z 0000000140008cec     unity_pathman.obj
+ 0002:00001cf4       $unwind$?getNodeInList@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAU1@@Z 0000000140008cf4     unity_pathman.obj
+ 0002:00001d00       $unwind$?distanceBetweenNodes@@YAMAEBUnode@@0@Z 0000000140008d00     unity_pathman.obj
+ 0002:00001d08       $unwind$?pathFinding@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@XZ 0000000140008d08     unity_pathman.obj
+ 0002:00001d14       $unwind$main               0000000140008d14     unity_pathman.obj
+ 0002:00001d1c       $unwind$??0node@@QEAA@HH@Z 0000000140008d1c     unity_pathman.obj
+ 0002:00001d1c       $unwind$??$?0V?$allocator@Unode@@@std@@$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Unode@@@1@@Z 0000000140008d1c     unity_pathman.obj
+ 0002:00001d24       $unwind$??$_Reverse_unchecked1@PEAUnode@@@std@@YAXPEAUnode@@0U?$integral_constant@_K$0A@@0@@Z 0000000140008d24     unity_pathman.obj
+ 0002:00001d24       $unwind$?deallocate@?$allocator@Unode@@@std@@QEAAXQEAUnode@@_K@Z 0000000140008d24     unity_pathman.obj
+ 0002:00001d24       $unwind$??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140008d24     unity_pathman.obj
+ 0002:00001d24       $unwind$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 0000000140008d24     unity_pathman.obj
+ 0002:00001d24       $unwind$?_Destroy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@0@Z 0000000140008d24     unity_pathman.obj
+ 0002:00001d2c       $unwind$?allocate@?$allocator@Unode@@@std@@QEAAPEAUnode@@_K@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAXAEBUnode@@@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$?_Seek_to@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAAXPEBUnode@@@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$??$iter_swap@PEAUnode@@PEAU1@@std@@YAXPEAUnode@@0@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@_K@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBAAEBUnode@@_K@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d2c       $unwind$??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@PEAUnode@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@AEBQEAUnode@@@Z 0000000140008d2c     unity_pathman.obj
+ 0002:00001d34       $unwind$?capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140008d34     unity_pathman.obj
+ 0002:00001d34       $unwind$?_Has_unused_capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_NXZ 0000000140008d34     unity_pathman.obj
+ 0002:00001d34       $unwind$??0?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@XZ 0000000140008d34     unity_pathman.obj
+ 0002:00001d34       $unwind$?size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140008d34     unity_pathman.obj
+ 0002:00001d34       $unwind$?max_size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 0000000140008d34     unity_pathman.obj
+ 0002:00001d34       $unwind$?empty@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_NXZ 0000000140008d34     unity_pathman.obj
+ 0002:00001d3c       $unwind$??$reverse@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 0000000140008d3c     unity_pathman.obj
+ 0002:00001d3c       $unwind$?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXAEAV12@@Z 0000000140008d3c     unity_pathman.obj
+ 0002:00001d3c       $unwind$?begin@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140008d3c     unity_pathman.obj
+ 0002:00001d3c       $unwind$?end@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 0000000140008d3c     unity_pathman.obj
+ 0002:00001d44       $unwind$?erase@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@@Z 0000000140008d44     unity_pathman.obj
+ 0002:00001d44       $unwind$??$_Copy_memmove@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140008d44     unity_pathman.obj
+ 0002:00001d44       $unwind$??$_Move_unchecked@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 0000000140008d44     unity_pathman.obj
+ 0002:00001d44       $unwind$?_Move_from@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAX$$QEAV12@U?$integral_constant@_N$00@2@@Z 0000000140008d44     unity_pathman.obj
+ 0002:00001d4c       $unwind$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@$$QEAV01@@Z 0000000140008d4c     unity_pathman.obj
+ 0002:00001d4c       $unwind$??$_Reverse_unchecked@PEAUnode@@@std@@YAXQEAUnode@@0@Z 0000000140008d4c     unity_pathman.obj
+ 0002:00001d54       $unwind$?_Umove@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAPEAUnode@@PEAU3@00@Z 0000000140008d54     unity_pathman.obj
+ 0002:00001d54       $unwind$??$_Find_unchecked1@PEAUnode@@U1@@std@@YAPEAUnode@@PEAU1@QEAU1@AEBU1@U?$integral_constant@_N$0A@@0@@Z 0000000140008d54     unity_pathman.obj
+ 0002:00001d54       $unwind$??$_Move_unchecked1@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z 0000000140008d54     unity_pathman.obj
+ 0002:00001d54       $unwind$?_Umove_if_noexcept1@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00U?$integral_constant@_N$00@2@@Z 0000000140008d54     unity_pathman.obj
+ 0002:00001d5c       $unwind$?_Umove_if_noexcept@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00@Z 0000000140008d5c     unity_pathman.obj
+ 0002:00001d64       $unwind$?_Change_array@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXQEAUnode@@_K1@Z 0000000140008d64     unity_pathman.obj
+ 0002:00001d6c       $unwind$?_Tidy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXXZ 0000000140008d6c     unity_pathman.obj
+ 0002:00001d74       $unwind$?_Xlength@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@CAXXZ 0000000140008d74     unity_pathman.obj
+ 0002:00001d7c       $unwind$??$pow@HHX@@YANHH@Z 0000000140008d7c     unity_pathman.obj
+ 0002:00001d84       $unwind$??$_Emplace_back_with_unused_capacity@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@AEBU2@@Z 0000000140008d84     unity_pathman.obj
+ 0002:00001d84       $unwind$??$_Emplace_back_with_unused_capacity@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@$$QEAU2@@Z 0000000140008d84     unity_pathman.obj
+ 0002:00001d8c       $unwind$??$construct@Unode@@AEBU1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@AEBU3@@Z 0000000140008d8c     unity_pathman.obj
+ 0002:00001d8c       $unwind$??$construct@Unode@@U1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@$$QEAU3@@Z 0000000140008d8c     unity_pathman.obj
+ 0002:00001d98       $unwind$??$_Emplace_reallocate@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@AEBU2@@Z 0000000140008d98     unity_pathman.obj
+ 0002:00001d98       $unwind$??$_Emplace_reallocate@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@$$QEAU2@@Z 0000000140008d98     unity_pathman.obj
+ 0002:00001da0       $unwind$??$?0$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 0000000140008da0     unity_pathman.obj
+ 0002:00001da8       $unwind$??$_Find_unchecked@PEAUnode@@U1@@std@@YAPEAUnode@@QEAU1@0AEBU1@@Z 0000000140008da8     unity_pathman.obj
+ 0002:00001da8       $unwind$??$_Destroy_range@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@@Z 0000000140008da8     unity_pathman.obj
+ 0002:00001db0       $unwind$??$_Ptr_move_cat@Unode@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@AEBQEAUnode@@0@Z 0000000140008db0     unity_pathman.obj
+ 0002:00001db8       $unwind$??$_Uninitialized_move@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@QEAU1@0PEAU1@AEAV?$allocator@Unode@@@0@@Z 0000000140008db8     unity_pathman.obj
+ 0002:00001dc0       $unwind$??$_Get_size_of_n@$0BM@@std@@YA_K_K@Z 0000000140008dc0     unity_pathman.obj
+ 0002:00001dc8       $unwind$??$swap@Unode@@X@std@@YAXAEAUnode@@0@Z 0000000140008dc8     unity_pathman.obj
+ 0002:00001dd8       $xdatasym                  0000000140008dd8     msvcrt:chkstk.obj
+ 0002:00001de0       $unwind$??_Gtype_info@@UEAAPEAXI@Z 0000000140008de0     msvcrt:std_type_info_static.obj
+ 0002:00001de0       $unwind$??0logic_error@std@@QEAA@AEBV01@@Z 0000000140008de0     libcpmt:xthrow.obj
+ 0002:00001de0       $unwind$??0length_error@std@@QEAA@AEBV01@@Z 0000000140008de0     libcpmt:xthrow.obj
+ 0002:00001de0       $unwind$??0bad_alloc@std@@QEAA@AEBV01@@Z 0000000140008de0     msvcrt:throw_bad_alloc.obj
+ 0002:00001de0       $unwind$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 0000000140008de0     msvcrt:throw_bad_alloc.obj
+ 0002:00001de0       $unwind$??0exception@std@@QEAA@AEBV01@@Z 0000000140008de0     msvcrt:throw_bad_alloc.obj
+ 0002:00001de0       $unwind$??2@YAPEAX_K@Z     0000000140008de0     msvcrt:new_scalar.obj
+ 0002:00001de8       $unwind$??_Gbad_alloc@std@@UEAAPEAXI@Z 0000000140008de8     msvcrt:throw_bad_alloc.obj
+ 0002:00001de8       $unwind$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 0000000140008de8     msvcrt:throw_bad_alloc.obj
+ 0002:00001de8       $unwind$??_Glength_error@std@@UEAAPEAXI@Z 0000000140008de8     libcpmt:xthrow.obj
+ 0002:00001de8       $unwind$??_Gexception@std@@UEAAPEAXI@Z 0000000140008de8     msvcrt:throw_bad_alloc.obj
+ 0002:00001de8       $unwind$??_Glogic_error@std@@UEAAPEAXI@Z 0000000140008de8     libcpmt:xthrow.obj
+ 0002:00001df4       $unwind$?__scrt_throw_std_bad_array_new_length@@YAXXZ 0000000140008df4     msvcrt:throw_bad_alloc.obj
+ 0002:00001df4       $unwind$?_Xlength_error@std@@YAXPEBD@Z 0000000140008df4     libcpmt:xthrow.obj
+ 0002:00001df4       $unwind$?__scrt_throw_std_bad_alloc@@YAXXZ 0000000140008df4     msvcrt:throw_bad_alloc.obj
+ 0002:00001dfc       $unwind$??0length_error@std@@QEAA@PEBD@Z 0000000140008dfc     libcpmt:xthrow.obj
+ 0002:0000224e       .idata$6                   000000014000924e     kernel32:KERNEL32.dll
+ 0002:0000232a       .idata$6                   000000014000932a     user32:USER32.dll
+ 0002:0000238e       .idata$6                   000000014000938e     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000023ae       .idata$6                   00000001400093ae     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000023ce       .idata$6                   00000001400093ce     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000023f0       .idata$6                   00000001400093f0     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:0000241a       .idata$6                   000000014000941a     vcruntime:VCRUNTIME140.dll
+ 0002:00002440       .idata$6                   0000000140009440     d3d11:d3d11.dll
+ 0002:00002458       .idata$6                   0000000140009458     d3dcompiler:D3DCOMPILER_47.dll
+ 0002:00002480       .idata$6                   0000000140009480     ole32:ole32.dll
  0003:00000000       ?tile_map@@3PAEA           000000014000a000     unity_pathman.obj
  0003:00000364       ?pathman_tile_x@@3HA       000000014000a364     unity_pathman.obj
  0003:00000368       ?pathman_tile_y@@3HA       000000014000a368     unity_pathman.obj
@@ -674,101 +672,100 @@
  0004:000001bc       $pdata$?getAdjacent@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@Unode@@@Z 000000014000b1bc     unity_pathman.obj
  0004:000001c8       $pdata$?inList@@YA_NAEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAUnode@@@Z 000000014000b1c8     unity_pathman.obj
  0004:000001d4       $pdata$?getNodeInList@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAU1@@Z 000000014000b1d4     unity_pathman.obj
- 0004:000001e0       $pdata$?getParent@@YA?AUnode@@AEAV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@PEAU1@@Z 000000014000b1e0     unity_pathman.obj
- 0004:000001ec       $pdata$?distanceBetweenNodes@@YAMAEBUnode@@0@Z 000000014000b1ec     unity_pathman.obj
- 0004:000001f8       $pdata$?pathFinding@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@XZ 000000014000b1f8     unity_pathman.obj
- 0004:00000204       $pdata$main                000000014000b204     unity_pathman.obj
- 0004:00000210       $pdata$??0node@@QEAA@HH@Z  000000014000b210     unity_pathman.obj
- 0004:0000021c       $pdata$?deallocate@?$allocator@Unode@@@std@@QEAAXQEAUnode@@_K@Z 000000014000b21c     unity_pathman.obj
- 0004:00000228       $pdata$?allocate@?$allocator@Unode@@@std@@QEAAPEAUnode@@_K@Z 000000014000b228     unity_pathman.obj
- 0004:00000234       $pdata$??0?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@XZ 000000014000b234     unity_pathman.obj
- 0004:00000240       $pdata$?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXXZ 000000014000b240     unity_pathman.obj
- 0004:0000024c       $pdata$?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXAEAV12@@Z 000000014000b24c     unity_pathman.obj
- 0004:00000258       $pdata$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 000000014000b258     unity_pathman.obj
- 0004:00000258       $pdata$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 000000014000b258     unity_pathman.obj
- 0004:00000258       $pdata$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 000000014000b258     unity_pathman.obj
- 0004:00000258       $pdata$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 000000014000b258     unity_pathman.obj
- 0004:00000264       $pdata$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 000000014000b264     unity_pathman.obj
- 0004:00000264       $pdata$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 000000014000b264     unity_pathman.obj
- 0004:00000270       $pdata$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 000000014000b270     unity_pathman.obj
- 0004:00000270       $pdata$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 000000014000b270     unity_pathman.obj
- 0004:0000027c       $pdata$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 000000014000b27c     unity_pathman.obj
- 0004:0000027c       $pdata$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 000000014000b27c     unity_pathman.obj
- 0004:00000288       $pdata$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 000000014000b288     unity_pathman.obj
- 0004:00000294       $pdata$?_Move_from@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAX$$QEAV12@U?$integral_constant@_N$00@2@@Z 000000014000b294     unity_pathman.obj
- 0004:000002a0       $pdata$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@$$QEAV01@@Z 000000014000b2a0     unity_pathman.obj
- 0004:000002ac       $pdata$??1?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 000000014000b2ac     unity_pathman.obj
- 0004:000002b8       $pdata$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAXAEBUnode@@@Z 000000014000b2b8     unity_pathman.obj
- 0004:000002c4       $pdata$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 000000014000b2c4     unity_pathman.obj
- 0004:000002d0       $pdata$?erase@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@@Z 000000014000b2d0     unity_pathman.obj
- 0004:000002dc       $pdata$?begin@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 000000014000b2dc     unity_pathman.obj
- 0004:000002e8       $pdata$?end@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 000000014000b2e8     unity_pathman.obj
- 0004:000002f4       $pdata$?empty@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_NXZ 000000014000b2f4     unity_pathman.obj
- 0004:00000300       $pdata$?size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 000000014000b300     unity_pathman.obj
- 0004:0000030c       $pdata$?max_size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 000000014000b30c     unity_pathman.obj
- 0004:00000318       $pdata$?capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 000000014000b318     unity_pathman.obj
- 0004:00000324       $pdata$?_Has_unused_capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_NXZ 000000014000b324     unity_pathman.obj
- 0004:00000330       $pdata$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@_K@Z 000000014000b330     unity_pathman.obj
- 0004:00000330       $pdata$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBAAEBUnode@@_K@Z 000000014000b330     unity_pathman.obj
- 0004:0000033c       $pdata$?_Umove@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAPEAUnode@@PEAU3@00@Z 000000014000b33c     unity_pathman.obj
- 0004:0000033c       $pdata$?_Umove_if_noexcept1@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00U?$integral_constant@_N$00@2@@Z 000000014000b33c     unity_pathman.obj
- 0004:00000348       $pdata$?_Umove_if_noexcept@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00@Z 000000014000b348     unity_pathman.obj
- 0004:00000354       $pdata$?_Destroy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@0@Z 000000014000b354     unity_pathman.obj
- 0004:00000360       $pdata$?_Calculate_growth@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_K_K@Z 000000014000b360     unity_pathman.obj
- 0004:0000036c       $pdata$?_Change_array@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXQEAUnode@@_K1@Z 000000014000b36c     unity_pathman.obj
- 0004:00000378       $pdata$?_Tidy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXXZ 000000014000b378     unity_pathman.obj
- 0004:00000384       $pdata$?_Xlength@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@CAXXZ 000000014000b384     unity_pathman.obj
- 0004:00000390       $pdata$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 000000014000b390     unity_pathman.obj
- 0004:0000039c       $pdata$?_Seek_to@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAAXPEBUnode@@@Z 000000014000b39c     unity_pathman.obj
- 0004:000003a8       $pdata$??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 000000014000b3a8     unity_pathman.obj
- 0004:000003b4       $pdata$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@Unode@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@V10@V10@AEBUnode@@@Z 000000014000b3b4     unity_pathman.obj
- 0004:000003c0       $pdata$??$pow@HHX@@YANHH@Z 000000014000b3c0     unity_pathman.obj
- 0004:000003cc       $pdata$??$reverse@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 000000014000b3cc     unity_pathman.obj
- 0004:000003d8       $pdata$??$_Move_unchecked@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 000000014000b3d8     unity_pathman.obj
- 0004:000003e4       $pdata$??$emplace_back@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@$$QEAU2@@Z 000000014000b3e4     unity_pathman.obj
- 0004:000003e4       $pdata$??$emplace_back@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@AEBU2@@Z 000000014000b3e4     unity_pathman.obj
- 0004:000003f0       $pdata$??$_Emplace_back_with_unused_capacity@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@$$QEAU2@@Z 000000014000b3f0     unity_pathman.obj
- 0004:000003f0       $pdata$??$_Emplace_back_with_unused_capacity@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@AEBU2@@Z 000000014000b3f0     unity_pathman.obj
- 0004:000003fc       $pdata$??$construct@Unode@@AEBU1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@AEBU3@@Z 000000014000b3fc     unity_pathman.obj
- 0004:000003fc       $pdata$??$construct@Unode@@U1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@$$QEAU3@@Z 000000014000b3fc     unity_pathman.obj
- 0004:00000408       $pdata$??$_Emplace_reallocate@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@AEBU2@@Z 000000014000b408     unity_pathman.obj
- 0004:00000408       $pdata$??$_Emplace_reallocate@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@$$QEAU2@@Z 000000014000b408     unity_pathman.obj
- 0004:00000414       $pdata$??$?0V?$allocator@Unode@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Unode@@@1@@Z 000000014000b414     unity_pathman.obj
- 0004:00000420       $pdata$??$?0$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 000000014000b420     unity_pathman.obj
- 0004:0000042c       $pdata$??$_Destroy_range@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@@Z 000000014000b42c     unity_pathman.obj
- 0004:00000438       $pdata$??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 000000014000b438     unity_pathman.obj
- 0004:00000444       $pdata$??$_Get_unwrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@$0A@@std@@YAPEAUnode@@AEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@@Z 000000014000b444     unity_pathman.obj
- 0004:00000450       $pdata$??$_Find_unchecked@PEAUnode@@U1@@std@@YAPEAUnode@@QEAU1@0AEBU1@@Z 000000014000b450     unity_pathman.obj
- 0004:0000045c       $pdata$??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@PEAUnode@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@AEBQEAUnode@@@Z 000000014000b45c     unity_pathman.obj
- 0004:00000468       $pdata$??$_Reverse_unchecked@PEAUnode@@@std@@YAXQEAUnode@@0@Z 000000014000b468     unity_pathman.obj
- 0004:00000474       $pdata$??$_Ptr_move_cat@Unode@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@AEBQEAUnode@@0@Z 000000014000b474     unity_pathman.obj
- 0004:00000480       $pdata$??$_Move_unchecked1@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z 000000014000b480     unity_pathman.obj
- 0004:0000048c       $pdata$??$?0V?$allocator@Unode@@@std@@$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Unode@@@1@@Z 000000014000b48c     unity_pathman.obj
- 0004:00000498       $pdata$??$_Uninitialized_move@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@QEAU1@0PEAU1@AEAV?$allocator@Unode@@@0@@Z 000000014000b498     unity_pathman.obj
- 0004:000004a4       $pdata$??$_Get_size_of_n@$0CA@@std@@YA_K_K@Z 000000014000b4a4     unity_pathman.obj
- 0004:000004b0       $pdata$??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 000000014000b4b0     unity_pathman.obj
- 0004:000004bc       $pdata$??$_Find_unchecked1@PEAUnode@@U1@@std@@YAPEAUnode@@PEAU1@QEAU1@AEBU1@U?$integral_constant@_N$0A@@0@@Z 000000014000b4bc     unity_pathman.obj
- 0004:000004c8       $pdata$??$_Reverse_unchecked1@PEAUnode@@@std@@YAXPEAUnode@@0U?$integral_constant@_K$0A@@0@@Z 000000014000b4c8     unity_pathman.obj
- 0004:000004d4       $pdata$??$_Copy_memmove@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 000000014000b4d4     unity_pathman.obj
- 0004:000004e0       $pdata$??$_Uninitialized_move_al_unchecked@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@PEAU1@QEAU1@1AEAV?$allocator@Unode@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z 000000014000b4e0     unity_pathman.obj
- 0004:000004ec       $pdata$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 000000014000b4ec     unity_pathman.obj
- 0004:000004f8       $pdata$??$iter_swap@PEAUnode@@PEAU1@@std@@YAXPEAUnode@@0@Z 000000014000b4f8     unity_pathman.obj
- 0004:00000504       $pdata$??1?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 000000014000b504     unity_pathman.obj
- 0004:00000510       $pdata$??$_Emplace_back@Unode@@@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 000000014000b510     unity_pathman.obj
- 0004:0000051c       $pdata$??$swap@Unode@@X@std@@YAXAEAUnode@@0@Z 000000014000b51c     unity_pathman.obj
- 0004:00000534       $pdata$??2@YAPEAX_K@Z      000000014000b534     msvcrt:new_scalar.obj
- 0004:00000540       $pdata$??0exception@std@@QEAA@AEBV01@@Z 000000014000b540     msvcrt:throw_bad_alloc.obj
- 0004:0000054c       $pdata$??_Gexception@std@@UEAAPEAXI@Z 000000014000b54c     msvcrt:throw_bad_alloc.obj
- 0004:0000054c       $pdata$??_Gbad_alloc@std@@UEAAPEAXI@Z 000000014000b54c     msvcrt:throw_bad_alloc.obj
- 0004:0000054c       $pdata$??_Glogic_error@std@@UEAAPEAXI@Z 000000014000b54c     libcpmt:xthrow.obj
- 0004:0000054c       $pdata$??_Glength_error@std@@UEAAPEAXI@Z 000000014000b54c     libcpmt:xthrow.obj
- 0004:0000054c       $pdata$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 000000014000b54c     msvcrt:throw_bad_alloc.obj
- 0004:00000558       $pdata$??0bad_alloc@std@@QEAA@AEBV01@@Z 000000014000b558     msvcrt:throw_bad_alloc.obj
- 0004:00000564       $pdata$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 000000014000b564     msvcrt:throw_bad_alloc.obj
- 0004:00000570       $pdata$?__scrt_throw_std_bad_alloc@@YAXXZ 000000014000b570     msvcrt:throw_bad_alloc.obj
- 0004:0000057c       $pdata$?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000014000b57c     msvcrt:throw_bad_alloc.obj
- 0004:00000588       $pdata$??_Gtype_info@@UEAAPEAXI@Z 000000014000b588     msvcrt:std_type_info_static.obj
- 0004:00000594       $pdata$?_Xlength_error@std@@YAXPEBD@Z 000000014000b594     libcpmt:xthrow.obj
- 0004:000005a0       $pdata$??0logic_error@std@@QEAA@AEBV01@@Z 000000014000b5a0     libcpmt:xthrow.obj
- 0004:000005ac       $pdata$??0length_error@std@@QEAA@PEBD@Z 000000014000b5ac     libcpmt:xthrow.obj
- 0004:000005b8       $pdata$??0length_error@std@@QEAA@AEBV01@@Z 000000014000b5b8     libcpmt:xthrow.obj
+ 0004:000001e0       $pdata$?distanceBetweenNodes@@YAMAEBUnode@@0@Z 000000014000b1e0     unity_pathman.obj
+ 0004:000001ec       $pdata$?pathFinding@@YA?AV?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@XZ 000000014000b1ec     unity_pathman.obj
+ 0004:000001f8       $pdata$main                000000014000b1f8     unity_pathman.obj
+ 0004:00000204       $pdata$??0node@@QEAA@HH@Z  000000014000b204     unity_pathman.obj
+ 0004:00000210       $pdata$?deallocate@?$allocator@Unode@@@std@@QEAAXQEAUnode@@_K@Z 000000014000b210     unity_pathman.obj
+ 0004:0000021c       $pdata$?allocate@?$allocator@Unode@@@std@@QEAAPEAUnode@@_K@Z 000000014000b21c     unity_pathman.obj
+ 0004:00000228       $pdata$??0?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@XZ 000000014000b228     unity_pathman.obj
+ 0004:00000234       $pdata$?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXXZ 000000014000b234     unity_pathman.obj
+ 0004:00000240       $pdata$?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAXAEAV12@@Z 000000014000b240     unity_pathman.obj
+ 0004:0000024c       $pdata$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 000000014000b24c     unity_pathman.obj
+ 0004:0000024c       $pdata$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$allocator@Unode@@@2@XZ 000000014000b24c     unity_pathman.obj
+ 0004:0000024c       $pdata$?_Getal@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBV?$allocator@Unode@@@2@XZ 000000014000b24c     unity_pathman.obj
+ 0004:0000024c       $pdata$?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAV?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@XZ 000000014000b24c     unity_pathman.obj
+ 0004:00000258       $pdata$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 000000014000b258     unity_pathman.obj
+ 0004:00000258       $pdata$?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 000000014000b258     unity_pathman.obj
+ 0004:00000264       $pdata$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 000000014000b264     unity_pathman.obj
+ 0004:00000264       $pdata$?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 000000014000b264     unity_pathman.obj
+ 0004:00000270       $pdata$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAAAEAPEAUnode@@XZ 000000014000b270     unity_pathman.obj
+ 0004:00000270       $pdata$?_Myend@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEBAAEBQEAUnode@@XZ 000000014000b270     unity_pathman.obj
+ 0004:0000027c       $pdata$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 000000014000b27c     unity_pathman.obj
+ 0004:00000288       $pdata$?_Move_from@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAX$$QEAV12@U?$integral_constant@_N$00@2@@Z 000000014000b288     unity_pathman.obj
+ 0004:00000294       $pdata$??0?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@$$QEAV01@@Z 000000014000b294     unity_pathman.obj
+ 0004:000002a0       $pdata$??1?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 000000014000b2a0     unity_pathman.obj
+ 0004:000002ac       $pdata$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAXAEBUnode@@@Z 000000014000b2ac     unity_pathman.obj
+ 0004:000002b8       $pdata$?push_back@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 000000014000b2b8     unity_pathman.obj
+ 0004:000002c4       $pdata$?erase@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@@Z 000000014000b2c4     unity_pathman.obj
+ 0004:000002d0       $pdata$?begin@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 000000014000b2d0     unity_pathman.obj
+ 0004:000002dc       $pdata$?end@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@2@XZ 000000014000b2dc     unity_pathman.obj
+ 0004:000002e8       $pdata$?empty@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_NXZ 000000014000b2e8     unity_pathman.obj
+ 0004:000002f4       $pdata$?size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 000000014000b2f4     unity_pathman.obj
+ 0004:00000300       $pdata$?max_size@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 000000014000b300     unity_pathman.obj
+ 0004:0000030c       $pdata$?capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBA_KXZ 000000014000b30c     unity_pathman.obj
+ 0004:00000318       $pdata$?_Has_unused_capacity@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_NXZ 000000014000b318     unity_pathman.obj
+ 0004:00000324       $pdata$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEBAAEBUnode@@_K@Z 000000014000b324     unity_pathman.obj
+ 0004:00000324       $pdata$??A?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@_K@Z 000000014000b324     unity_pathman.obj
+ 0004:00000330       $pdata$?_Umove@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAPEAUnode@@PEAU3@00@Z 000000014000b330     unity_pathman.obj
+ 0004:00000330       $pdata$?_Umove_if_noexcept1@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00U?$integral_constant@_N$00@2@@Z 000000014000b330     unity_pathman.obj
+ 0004:0000033c       $pdata$?_Umove_if_noexcept@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@00@Z 000000014000b33c     unity_pathman.obj
+ 0004:00000348       $pdata$?_Destroy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXPEAUnode@@0@Z 000000014000b348     unity_pathman.obj
+ 0004:00000354       $pdata$?_Calculate_growth@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEBA_K_K@Z 000000014000b354     unity_pathman.obj
+ 0004:00000360       $pdata$?_Change_array@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXQEAUnode@@_K1@Z 000000014000b360     unity_pathman.obj
+ 0004:0000036c       $pdata$?_Tidy@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAXXZ 000000014000b36c     unity_pathman.obj
+ 0004:00000378       $pdata$?_Xlength@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@CAXXZ 000000014000b378     unity_pathman.obj
+ 0004:00000384       $pdata$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 000000014000b384     unity_pathman.obj
+ 0004:00000390       $pdata$?_Seek_to@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAAXPEBUnode@@@Z 000000014000b390     unity_pathman.obj
+ 0004:0000039c       $pdata$??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@QEAA@PEAUnode@@PEBU_Container_base0@1@@Z 000000014000b39c     unity_pathman.obj
+ 0004:000003a8       $pdata$??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@Unode@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@V10@V10@AEBUnode@@@Z 000000014000b3a8     unity_pathman.obj
+ 0004:000003b4       $pdata$??$pow@HHX@@YANHH@Z 000000014000b3b4     unity_pathman.obj
+ 0004:000003c0       $pdata$??$reverse@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@0@Z 000000014000b3c0     unity_pathman.obj
+ 0004:000003cc       $pdata$??$_Move_unchecked@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 000000014000b3cc     unity_pathman.obj
+ 0004:000003d8       $pdata$??$emplace_back@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@AEBU2@@Z 000000014000b3d8     unity_pathman.obj
+ 0004:000003d8       $pdata$??$emplace_back@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAAEAUnode@@$$QEAU2@@Z 000000014000b3d8     unity_pathman.obj
+ 0004:000003e4       $pdata$??$_Emplace_back_with_unused_capacity@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@AEBU2@@Z 000000014000b3e4     unity_pathman.obj
+ 0004:000003e4       $pdata$??$_Emplace_back_with_unused_capacity@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@AEAAAEAUnode@@$$QEAU2@@Z 000000014000b3e4     unity_pathman.obj
+ 0004:000003f0       $pdata$??$construct@Unode@@U1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@$$QEAU3@@Z 000000014000b3f0     unity_pathman.obj
+ 0004:000003f0       $pdata$??$construct@Unode@@AEBU1@@?$_Default_allocator_traits@V?$allocator@Unode@@@std@@@std@@SAXAEAV?$allocator@Unode@@@1@QEAUnode@@AEBU3@@Z 000000014000b3f0     unity_pathman.obj
+ 0004:000003fc       $pdata$??$_Emplace_reallocate@AEBUnode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@AEBU2@@Z 000000014000b3fc     unity_pathman.obj
+ 0004:000003fc       $pdata$??$_Emplace_reallocate@Unode@@@?$vector@Unode@@V?$allocator@Unode@@@std@@@std@@QEAAPEAUnode@@QEAU2@$$QEAU2@@Z 000000014000b3fc     unity_pathman.obj
+ 0004:00000408       $pdata$??$?0V?$allocator@Unode@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@Unode@@V?$allocator@Unode@@@std@@@std@@@std@@QEAA@$$QEAV?$allocator@Unode@@@1@@Z 000000014000b408     unity_pathman.obj
+ 0004:00000414       $pdata$??$?0$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_Zero_then_variadic_args_t@1@@Z 000000014000b414     unity_pathman.obj
+ 0004:00000420       $pdata$??$_Destroy_range@V?$allocator@Unode@@@std@@@std@@YAXPEAUnode@@0AEAV?$allocator@Unode@@@0@@Z 000000014000b420     unity_pathman.obj
+ 0004:0000042c       $pdata$??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z 000000014000b42c     unity_pathman.obj
+ 0004:00000438       $pdata$??$_Get_unwrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@$0A@@std@@YAPEAUnode@@AEBV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@@Z 000000014000b438     unity_pathman.obj
+ 0004:00000444       $pdata$??$_Find_unchecked@PEAUnode@@U1@@std@@YAPEAUnode@@QEAU1@0AEBU1@@Z 000000014000b444     unity_pathman.obj
+ 0004:00000450       $pdata$??$_Seek_wrapped@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@std@@PEAUnode@@@std@@YAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@std@@@0@AEBQEAUnode@@@Z 000000014000b450     unity_pathman.obj
+ 0004:0000045c       $pdata$??$_Reverse_unchecked@PEAUnode@@@std@@YAXQEAUnode@@0@Z 000000014000b45c     unity_pathman.obj
+ 0004:00000468       $pdata$??$_Ptr_move_cat@Unode@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@AEBQEAUnode@@0@Z 000000014000b468     unity_pathman.obj
+ 0004:00000474       $pdata$??$_Move_unchecked1@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z 000000014000b474     unity_pathman.obj
+ 0004:00000480       $pdata$??$?0V?$allocator@Unode@@@std@@$$V@?$_Compressed_pair@V?$allocator@Unode@@@std@@V?$_Vector_val@U?$_Simple_types@Unode@@@std@@@2@$00@std@@QEAA@U_One_then_variadic_args_t@1@$$QEAV?$allocator@Unode@@@1@@Z 000000014000b480     unity_pathman.obj
+ 0004:0000048c       $pdata$??$_Uninitialized_move@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@QEAU1@0PEAU1@AEAV?$allocator@Unode@@@0@@Z 000000014000b48c     unity_pathman.obj
+ 0004:00000498       $pdata$??$_Get_size_of_n@$0BM@@std@@YA_K_K@Z 000000014000b498     unity_pathman.obj
+ 0004:000004a4       $pdata$??$_Allocate@$0BA@U_Default_allocate_traits@std@@$0A@@std@@YAPEAX_K@Z 000000014000b4a4     unity_pathman.obj
+ 0004:000004b0       $pdata$??$_Find_unchecked1@PEAUnode@@U1@@std@@YAPEAUnode@@PEAU1@QEAU1@AEBU1@U?$integral_constant@_N$0A@@0@@Z 000000014000b4b0     unity_pathman.obj
+ 0004:000004bc       $pdata$??$_Reverse_unchecked1@PEAUnode@@@std@@YAXPEAUnode@@0U?$integral_constant@_K$0A@@0@@Z 000000014000b4bc     unity_pathman.obj
+ 0004:000004c8       $pdata$??$_Copy_memmove@PEAUnode@@PEAU1@@std@@YAPEAUnode@@PEAU1@00@Z 000000014000b4c8     unity_pathman.obj
+ 0004:000004d4       $pdata$??$_Uninitialized_move_al_unchecked@PEAUnode@@PEAU1@V?$allocator@Unode@@@std@@@std@@YAPEAUnode@@PEAU1@QEAU1@1AEAV?$allocator@Unode@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z 000000014000b4d4     unity_pathman.obj
+ 0004:000004e0       $pdata$??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z 000000014000b4e0     unity_pathman.obj
+ 0004:000004ec       $pdata$??$iter_swap@PEAUnode@@PEAU1@@std@@YAXPEAUnode@@0@Z 000000014000b4ec     unity_pathman.obj
+ 0004:000004f8       $pdata$??1?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAA@XZ 000000014000b4f8     unity_pathman.obj
+ 0004:00000504       $pdata$??$_Emplace_back@Unode@@@?$_Uninitialized_backout_al@PEAUnode@@V?$allocator@Unode@@@std@@@std@@QEAAX$$QEAUnode@@@Z 000000014000b504     unity_pathman.obj
+ 0004:00000510       $pdata$??$swap@Unode@@X@std@@YAXAEAUnode@@0@Z 000000014000b510     unity_pathman.obj
+ 0004:00000528       $pdata$??2@YAPEAX_K@Z      000000014000b528     msvcrt:new_scalar.obj
+ 0004:00000534       $pdata$??0exception@std@@QEAA@AEBV01@@Z 000000014000b534     msvcrt:throw_bad_alloc.obj
+ 0004:00000540       $pdata$??_Glength_error@std@@UEAAPEAXI@Z 000000014000b540     libcpmt:xthrow.obj
+ 0004:00000540       $pdata$??_Gexception@std@@UEAAPEAXI@Z 000000014000b540     msvcrt:throw_bad_alloc.obj
+ 0004:00000540       $pdata$??_Glogic_error@std@@UEAAPEAXI@Z 000000014000b540     libcpmt:xthrow.obj
+ 0004:00000540       $pdata$??_Gbad_alloc@std@@UEAAPEAXI@Z 000000014000b540     msvcrt:throw_bad_alloc.obj
+ 0004:00000540       $pdata$??_Gbad_array_new_length@std@@UEAAPEAXI@Z 000000014000b540     msvcrt:throw_bad_alloc.obj
+ 0004:0000054c       $pdata$??0bad_alloc@std@@QEAA@AEBV01@@Z 000000014000b54c     msvcrt:throw_bad_alloc.obj
+ 0004:00000558       $pdata$??0bad_array_new_length@std@@QEAA@AEBV01@@Z 000000014000b558     msvcrt:throw_bad_alloc.obj
+ 0004:00000564       $pdata$?__scrt_throw_std_bad_alloc@@YAXXZ 000000014000b564     msvcrt:throw_bad_alloc.obj
+ 0004:00000570       $pdata$?__scrt_throw_std_bad_array_new_length@@YAXXZ 000000014000b570     msvcrt:throw_bad_alloc.obj
+ 0004:0000057c       $pdata$??_Gtype_info@@UEAAPEAXI@Z 000000014000b57c     msvcrt:std_type_info_static.obj
+ 0004:00000588       $pdata$?_Xlength_error@std@@YAXPEBD@Z 000000014000b588     libcpmt:xthrow.obj
+ 0004:00000594       $pdata$??0logic_error@std@@QEAA@AEBV01@@Z 000000014000b594     libcpmt:xthrow.obj
+ 0004:000005a0       $pdata$??0length_error@std@@QEAA@PEBD@Z 000000014000b5a0     libcpmt:xthrow.obj
+ 0004:000005ac       $pdata$??0length_error@std@@QEAA@AEBV01@@Z 000000014000b5ac     libcpmt:xthrow.obj

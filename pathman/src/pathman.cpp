@@ -106,10 +106,11 @@ struct node
 	node() {
 		posX = -1;
 		posY = -1;
+		parentX = -1;
+		parentY = -1;
 		h = 0;
 		g = 0;
 		f = 0;
-		parent = NULL;
 	}
 	node(int x, int y)
 		: node()
@@ -120,16 +121,13 @@ struct node
 	}
 
 	bool operator == (node const &obj) {
-		if (this->posX == obj.posX)
-			if (this->posY == obj.posY)
-				return true;
-
+		if (this->posX == obj.posX && this->posY == obj.posY)
+			return true;
 		return false;
 	}
 
-	int posX, posY;
+	int posX, posY, parentX, parentY;
 	float h, g, f;
-	node* parent;
 };
 
 node getLowestF(const std::vector<node>& nodes) {
@@ -144,7 +142,7 @@ node getLowestF(const std::vector<node>& nodes) {
 }
 
 void removeNode(std::vector<node>& nodes, const node& node) {
-	for (int i(1); i < nodes.size(); i++) {
+	for (int i(0); i < nodes.size(); i++) {
 		if (nodes[i] == node) {
 			auto iterator = std::find(nodes.begin(), nodes.end(), node);
 			nodes.erase(iterator);
@@ -176,17 +174,21 @@ std::vector<node> getAdjacent(node Node) {
 
 	for (int i(0); i < nodes.size(); i++)
 	{
-		if (nodes[i].posX == -1)
+		if (nodes[i].posX == -1) {
 			removeNode(nodes, nodes[i]);
-		else
-			nodes[i].parent = &Node;
+			i--;
+		}
+		else {
+			nodes[i].parentX = Node.posX;
+			nodes[i].parentY = Node.posY;
+		}
 	}
 
 	return nodes;
 }
 
 bool inList(std::vector<node>& nodes, node& node) {
-	for (int i(1); i < nodes.size(); i++) {
+	for (int i(0); i < nodes.size(); i++) {
 		if (nodes[i] == node) {
 			return true;
 		}
@@ -195,7 +197,7 @@ bool inList(std::vector<node>& nodes, node& node) {
 }
 
 node getNodeInList(std::vector<node>& nodes, node& Node) {
-	for (int i(1); i < nodes.size(); i++) {
+	for (int i(0); i < nodes.size(); i++) {
 		if (nodes[i] == Node) {
 			return nodes[i];
 		}
@@ -203,17 +205,8 @@ node getNodeInList(std::vector<node>& nodes, node& Node) {
 	return node();
 }
 
-node getParent(std::vector<node>& nodes, node* Node) {
-	for (int i(1); i < nodes.size(); i++) {
-		if (nodes[i].posX == Node->posX && nodes[i].posY == Node->posY) {
-			return nodes[i];
-		}
-	}
-	return node();
-}
-
 float distanceBetweenNodes(const node& node1, const node& node2) {
-	return pow((node1.posX - node2.posX), 2) - pow((node1.posY - node2.posY), 2);
+	return pow((node1.posX - node2.posX), 2) + pow((node1.posY - node2.posY), 2);
 }
 
 std::vector<node> pathFinding() {
@@ -231,6 +224,11 @@ std::vector<node> pathFinding() {
 		removeNode(open, currentNode);
 		closed.push_back(currentNode);
 
+		if (inList(closed, target)){
+			target = getNodeInList(closed, target);
+			break;
+		}
+
 		// Generate children
 		std::vector<node> children = getAdjacent(currentNode);
 
@@ -240,9 +238,9 @@ std::vector<node> pathFinding() {
 				continue;
 
 			//Create values
-			children[i].g = currentNode.g + distanceBetweenNodes(currentNode, children[i]);
-			children[i].h = distanceBetweenNodes(children[i], target);
-			children[i].f = children[i].g + children[i].h;
+			children[i].g = currentNode.g + distanceBetweenNodes(currentNode, children[i]); // Uniform-Cost (Backwards Cost)
+			children[i].h = distanceBetweenNodes(children[i], target);						// Greedy (Forward Cost)
+			children[i].f = children[i].g + children[i].h;									// A* Combines Uniform-cost and Greedy
 
 			//Check if child is already in open
 			if (inList(open, children[i])) {
@@ -255,10 +253,6 @@ std::vector<node> pathFinding() {
 			open.push_back(children[i]);
 		}
 
-		if (inList(closed, target)){
-			target = getNodeInList(closed, target);
-			break;
-		}
 	}
 
 	bool end = false;
@@ -267,8 +261,10 @@ std::vector<node> pathFinding() {
 		
 		if (target == start)
 			end = true;
-		else
-			target = getParent(closed, target.parent);
+		else {
+			node parent = node(target.parentX, target.parentY);
+			target = getNodeInList(closed, parent);
+		}
 	}
 	
 	std::reverse(finalNodes.begin(), finalNodes.end());
@@ -295,6 +291,7 @@ int main(void)
 	load_sprite_sheet(&sprite_sheet, &d3d);
 
 	std::vector<node> finalNodes = pathFinding();
+	int count = 0, frame = 0;
 
 	// Main loop
 	bool quit = false;
@@ -317,9 +314,17 @@ int main(void)
 
 		begin_frame(&d3d);
 
+		//Move Sprite
+		if (frame > 30) {
+			pathman_tile_x = finalNodes[count].posX;
+			pathman_tile_y = finalNodes[count].posY;
+			frame = 0;
+		}
+
 		// Rendering code goes here
 		render(&d3d, &sb, &sprite_sheet);
 
+		frame += 1;
 		end_frame(&d3d);
 	}
 
